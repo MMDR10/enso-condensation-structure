@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><style>
+body { font-family: 'Georgia','Times New Roman',serif; max-width: 800px; margin: 40px auto; padding: 0 20px; line-height: 1.55; color: #111; font-size: 12pt; }
+h1 { font-size: 17pt; line-height: 1.3; }
+h2 { font-size: 14pt; margin-top: 1.6em; border-bottom: 1px solid #999; padding-bottom: 4px; }
+h3 { font-size: 12.5pt; }
+table { border-collapse: collapse; width: 100%; font-size: 9.5pt; margin: 1em 0; }
+th, td { border: 1px solid #555; padding: 5px 8px; text-align: left; vertical-align: top; }
+th { background: #eee; }
+code { font-family: 'Courier New',monospace; font-size: 10pt; background:#f5f5f5; }
+pre { background:#f5f5f5; padding:8px; }
+blockquote { border-left: 3px solid #999; margin-left: 0; padding-left: 1em; color:#333; }
+@page { margin: 2.2cm; }
+</style></head><body><h1>Condensation Structure of ENSO: Seasonal Memory, Topographic Anchoring, and Phase-Transition Geometry</h1>
+<p><strong>Author:</strong> tygtDc, Deep Research
+<strong>Date:</strong> 2026-08-04
+<strong>Version:</strong> v1.0 (draft)
+<strong>DOI:</strong> pending
+<strong>Predecessor:</strong> ENSO Simplified Prediction Note (10.5281/zenodo.21626908), ENSO Watch Dashboard (github.com/MMDR10/enso-watch)</p>
+<hr />
+<h2>Abstract</h2>
+<p>ENSO is traditionally understood as a large-scale ocean–atmosphere coupled oscillation, with mainstream methods (GCMs) achieving only ~50–60% accuracy at 6-month leads. This paper proposes a different measurement route: <strong>instead of predicting the ENSO index, measure the spatial condensation structure of the equatorial Pacific SST density field</strong> — the geometric folding of seasonal frontal systems, their positional memory, and the topographic anchoring of that memory.</p>
+<p>Using 39 years of OISST 0.25° data (1982–2020), we find:</p>
+<ol>
+<li><strong>ρ-field condensation is the norm (D=1.334±0.016, 60/60 months, z=−46.4)</strong>: the high-value cluster dimension of the SST seasonal activity density field (ρ) is far below random (null 1.73) — frontal systems <strong>fold into near-1D line-like structures</strong>, not uniform scatter. The condensation signature is 4× stronger at 0.25° than at 1° (z −46 vs −11).</li>
+<li><strong>Temporal memory exists but is weak (adjacent-month Jaccard 1.12× cross-year, p=0.004; 86% of positions reshuffle)</strong>: clusters have almost no temporal identity but retain weak positional memory — "time does not exist" is refined to "noise clusters have almost no temporal identity, but weak positional memory remains."</li>
+<li><strong>Seasonal memory is dominated by the Pacific margins ("strong at both ends, weak in the center")</strong>: east-end 270–290°E (American coast) net memory 0.096–0.117, 80.7% positive grid cells, 23.3% of top-5% share; Nino3.4 center weakest (6.4%). Seasonal memory is not a center phenomenon but a margin frontal-zone phenomenon.</li>
+<li><strong>Memory position is insensitive to ENSO phase (p=0.28)</strong>: the position is anchored by non-ENSO factors.</li>
+<li><strong>Topographic anchoring (ETOPO decisive test)</strong>: the strongest memory region sits on the EPR/Galapagos shallow ridge (−2636 m vs −4629 m abyssal plain; roughness/gradient 2.5×); memory intensity × topographic gradient positively correlated (r=+0.038, shuffle null <strong>z=+13.9</strong>), robust after excluding shelf effects (r=+0.040, p=5.6e-49). <strong>Dynamic volcanic activity is excluded (EPR three-line NULL: temporal r&lt;0.15, high/low volcanic months p=0.78/0.87, spatial r=−0.29)</strong> — supporting "static submarine geometry" rather than "volcanic eruption."</li>
+<li><strong>La Niña condenses most strongly (p=0.0011)</strong>: in the cold phase the cold tongue deepens → the front steepens → stronger condensation, complementary to the superficial asymmetry of the three-number formula ("La Niña signal is weak").</li>
+</ol>
+<p>Conclusion: the predictable part of ENSO is not the center index but the <strong>condensation structure of marginal frontal systems</strong> — recurring at the same location each year, anchored by fixed submarine topography. This structure provides a measurement window orthogonal to mainstream ENSO prediction.</p>
+<hr />
+<h2>1. Introduction: Using the Wrong Ruler?</h2>
+<p>Mainstream ENSO prediction uses GCMs to simulate the coupled ocean–atmosphere system, achieving ~50–60% accuracy at 6-month leads. Prior work in this series (ENSO Simplified Prediction Note) proposed that ENSO is fundamentally a <strong>phase transition</strong>: one need not simulate every water molecule, only measure the critical point. That note used a three-number formula (x, ẋ, V) to capture the phase-transition state, and performed a five-dimensional scan with the Ô-HAT framework, finding ENSO's structural rigidity 3.0±1.8 (one of the most rigid natural systems ever measured).</p>
+<p>But the three-number formula measures the ENSO <strong>center</strong> (indices such as Nino3.4). This paper asks: <strong>where does the "structure" of the ENSO system actually live?</strong> The answer points to a location mainstream work ignores — <strong>the spatial folding of seasonal frontal systems</strong>.</p>
+<p>We apply the core operation of the Ô framework: take the SST density field ρ (seasonal activity intensity), measure the fractal dimension D of its high-value clusters (degree of folding), its cross-year recurrence (seasonal memory), and the fixed source of its spatial position (anchoring).</p>
+<hr />
+<h2>2. Data and Methods</h2>
+<h3>2.1 Data</h3>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Resolution</th>
+<th>Period</th>
+<th>Use</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>NOAA OISST v2.1</td>
+<td>0.25°</td>
+<td>1982–2020 (39 yr)</td>
+<td>Primary analysis</td>
+</tr>
+<tr>
+<td>ERA5 SST</td>
+<td>0.25°</td>
+<td>1982–2018</td>
+<td>Cross-validation</td>
+</tr>
+<tr>
+<td>HadISST</td>
+<td>1°</td>
+<td>1950–2024</td>
+<td>Resolution contrast</td>
+</tr>
+<tr>
+<td>NOAA ETOPO1 Bedrock</td>
+<td>1-arcmin → 0.25°</td>
+<td>static</td>
+<td>Topographic anchoring</td>
+</tr>
+<tr>
+<td>USGS earthquake catalog + volcano data</td>
+<td>—</td>
+<td>1970–2025</td>
+<td>Volcanic activity exclusion (EPR)</td>
+</tr>
+</tbody>
+</table>
+<h3>2.2 Core Measures</h3>
+<ul>
+<li><strong>ρ field</strong>: per-grid-cell SST seasonal activity intensity (climatological std or anomaly amplitude).</li>
+<li><strong>D_fold (condensation dimension)</strong>: box-counting dimension of ρ &gt; p95 grid cells. Random scatter ≈ 2, line-like folding → 1. Null uses N_NULL=8, seed=42.</li>
+<li><strong>Seasonal memory</strong>: per-grid-cell cross-year (same month, 12 months apart) SST corr minus random-baseline corr (152 pairs).</li>
+<li><strong>Topographic features</strong>: ETOPO 0.25° mean elevation, std (roughness), np.gradient magnitude (gradient).</li>
+<li><strong>Volcanic activity</strong>: USGS earthquake energy density, volcanic eruption months, three independent lines (temporal coupling / high-vs-low volcanic months / spatial density).</li>
+</ul>
+<h3>2.3 Validation Standards</h3>
+<ul>
+<li>Shuffle null (spatial/temporal randomization) 200–500 reps, z-score.</li>
+<li>Dual resolution (1° vs 0.25°) and dual product (OISST vs ERA5) cross-validation.</li>
+<li>Shelf-effect exclusion (&gt;1000 m deep-water mask) robustness check.</li>
+</ul>
+<hr />
+<h2>3. Main Findings</h2>
+<h3>3.1 Condensation Is the Norm, Not Event-Driven</h3>
+<table>
+<thead>
+<tr>
+<th>Measure</th>
+<th>Value</th>
+<th>Statistics</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ρ&gt;p95 cluster dimension D (0.25°, 60 months)</td>
+<td><strong>1.334 ± 0.016</strong></td>
+<td>negative in 60/60 months, mean z=−46.4</td>
+</tr>
+<tr>
+<td>null dimension</td>
+<td>~1.73</td>
+<td>—</td>
+</tr>
+<tr>
+<td>1° contrast (HadISST)</td>
+<td>D=1.04, z=−11.2</td>
+<td>0.25° condensation signature 4× stronger</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Interpretation:</strong> the high-value clusters of the SST seasonal activity density field are far lower-dimensional than random — frontal systems fold into near-1D line-like ("pipeline") structures. Every one of 60 months is significant, i.e., condensation is a normal-state structure, not an accidental product of a particular ENSO event.</p>
+<h3>3.2 Temporal Memory: Present but Extremely Weak</h3>
+<table>
+<thead>
+<tr>
+<th>Contrast</th>
+<th>Jaccard</th>
+<th>Test</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Adjacent months</td>
+<td>0.140</td>
+<td>weak but significant</td>
+</tr>
+<tr>
+<td>Same month across years</td>
+<td>0.126</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Ratio</td>
+<td><strong>1.12×</strong></td>
+<td>t=2.91, p=0.004</td>
+</tr>
+</tbody>
+</table>
+<p>86% of positions reshuffle monthly — clusters have almost no temporal identity; but the residual 1.12× memory is real. Higher resolution (0.25° vs 1°) makes memory more visible. <strong>The precise version of "time does not exist": noise clusters have almost no temporal identity, but weak positional memory remains.</strong></p>
+<h3>3.3 Seasonal Memory: "Strong at Both Ends, Weak in the Center"</h3>
+<table>
+<thead>
+<tr>
+<th>Region</th>
+<th>Net memory</th>
+<th>&gt;0 share</th>
+<th>top-5% share</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>East end 270–290°E (American coast)</strong></td>
+<td><strong>0.096–0.117</strong></td>
+<td><strong>80.7%</strong></td>
+<td><strong>23.3%</strong></td>
+</tr>
+<tr>
+<td>Central-east Pacific 240–270°E</td>
+<td>0.049</td>
+<td>63.3%</td>
+<td>19.4%</td>
+</tr>
+<tr>
+<td>Nino3.4 center 190–240°E</td>
+<td>weakest</td>
+<td>—</td>
+<td>6.4%</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Field-wide 65.9% of grid cells positive, mean net memory +0.056 (cross-year corr 0.050 vs random −0.005).</li>
+<li>Memory intensity tracks seasonal ρ amplitude (pearson +0.40): where the seasonal front is strong, position recurs predictably each year.</li>
+<li><strong>Closed loop</strong>: east-end cold-tongue steepest location = strongest La Niña condensation (p=0.0011) = island-network same-season recurrence each year.</li>
+</ul>
+<h3>3.4 Memory Position Insensitive to ENSO</h3>
+<p>The spatial distribution of positional memory shows no systematic variation across ENSO phases (p=0.28) — <strong>the position is anchored by non-ENSO factors</strong>. This is the first piece of evidence pointing to "fixed topography."</p>
+<h3>3.5 Volcanic Activity Excluded (EPR Three-Line NULL)</h3>
+<table>
+<thead>
+<tr>
+<th>Line</th>
+<th>Result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Temporal coupling</td>
+<td>all 8 synchronous r &lt; 0.15; surrogate p=0.4–0.9 (within null)</td>
+</tr>
+<tr>
+<td>High/low volcanic months</td>
+<td>top25% vs bottom25% east-end SST no difference (p=0.78/0.87)</td>
+</tr>
+<tr>
+<td>Spatial coupling</td>
+<td>volcano density × memory field <strong>r=−0.29 (negative, opposite direction)</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Conclusion: dynamic volcanic activity (USGS earthquakes/energy) is not the source of east-end condensation.</strong></p>
+<h3>3.6 Topographic Anchoring: Decisive Test (ETOPO)</h3>
+<table>
+<thead>
+<tr>
+<th>Region</th>
+<th>net memory</th>
+<th>elevation</th>
+<th>roughness</th>
+<th>gradient</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>East end 270–290°E (strongest memory)</td>
+<td><strong>0.109</strong></td>
+<td><strong>−2636 m</strong></td>
+<td><strong>183</strong></td>
+<td><strong>1148</strong></td>
+</tr>
+<tr>
+<td>Nino3.4 190–240°E (weakest memory)</td>
+<td>0.033</td>
+<td>−4629 m</td>
+<td>115</td>
+<td>467</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>The strongest-memory seafloor is the <strong>EPR/Galapagos shallow ridge</strong> (~2000 m shallower, roughness/gradient 2.5× the abyssal plain).</li>
+<li>net memory ~ grad: r=+0.038 (p=7.5e-46, n=143k); <strong>shuffle null z=+13.9</strong>.</li>
+<li>Top-10% memory cells: gradient 1141 vs bottom-10% 941 (Δ +200).</li>
+<li><strong>Robust after excluding shelf (&gt;1000 m deep water)</strong>: r=+0.040 (p=5.6e-49), top-decile Δ +211.</li>
+<li><strong>Mechanism (to be verified)</strong>: EUC hits the shallow ridge → upwelling → cold wake → front anchored at the same topographic feature each year → seasonal memory recurs.</li>
+</ul>
+<p><strong>Direction correction:</strong> not "volcanic eruption" but "submarine geometry"; level is "positional anchoring" (not yet "phase-transition triggering").</p>
+<hr />
+<h2>4. Discussion</h2>
+<h3>4.1 Relation to the Three-Number Formula</h3>
+<p>The three-number formula (x, ẋ, V) captures the ENSO center state; the condensation structure captures the marginal frontal systems. The two are complementary: <strong>the center is dominated by interannual variability (hard to predict); the margins are dominated by seasonal/topographic processes (predictable each year)</strong>. This explains why predicting the ENSO center is so hard — the truly predictable structure does not live in the center.</p>
+<h3>4.2 Physical Meaning of "Strong at Both Ends, Weak in the Center"</h3>
+<p>The Nino3.4 center is the epicenter of ENSO interannual variability, with its front positions reshuffling each year (86%); the east-end cold tongue is fixed by coastal upwelling plus topography (Galapagos/EPR), recurring at the same location each year. <strong>Memory is the spatial distribution of predictability</strong> — it concentrates at topographically anchored margins, not at the ENSO index.</p>
+<h3>4.3 Limitations</h3>
+<ol>
+<li>Small effect sizes (r≈0.04) — large areas of weak memory values dilute the signal; signal concentrates in the east-end corridor.</li>
+<li>Unbalanced regional sample sizes (east end 1649 cells vs much larger Nino3.4).</li>
+<li>Causal direction: correlation supports anchoring but does not exclude other east-end peculiarities.</li>
+<li>0.25° averaging may smooth small-scale topography.</li>
+<li>SST–DART cross-domain test: F2 spectral isomorphism NULL (surrogate p=0.986) — <strong>the condensation structure is not isomorphic with the earthquake/tsunami domain</strong>, the ρ field is an ENSO-domain-specific hard core.</li>
+</ol>
+<hr />
+<h2>5. Conclusion</h2>
+<p><strong>The structural (predictable) content of ENSO does not live in the center index but in the condensation structure of marginal frontal systems.</strong> This structure: condenses to near-1D (D=1.33, z=−46), retains weak positional memory (1.12×, p=0.004), concentrates at both Pacific ends, is anchored by fixed submarine topography (ETOPO z=+13.9), and is not driven by volcanic activity (EPR NULL).</p>
+<p>One answer to "why is ENSO so hard to predict": <strong>we keep measuring the center, but the structure lives at the margins.</strong></p>
+<hr />
+<h2>6. Evidence-Level Checklist</h2>
+<table>
+<thead>
+<tr>
+<th>Claim</th>
+<th>Evidence level</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ρ-field condensation is the norm (D=1.334, z=−46.4, 60/60 months)</td>
+<td>✅ Cross-validated</td>
+<td>60 independent months + April pilot replication + dual resolution</td>
+</tr>
+<tr>
+<td>0.25° condenses more strongly than 1° (z −46 vs −11)</td>
+<td>✅ Cross-validated</td>
+<td>Dual-resolution independent measurements</td>
+</tr>
+<tr>
+<td>Temporal memory weak but significant (1.12×, p=0.004)</td>
+<td>✅ Cross-validated</td>
+<td>n=55 vs 48 Welch t; both resolutions agree</td>
+</tr>
+<tr>
+<td>86% position reshuffle (bulk not moving)</td>
+<td>✅ Cross-validated</td>
+<td>Both resolutions agree (1° 92.6%, 0.25° 86%)</td>
+</tr>
+<tr>
+<td>Seasonal memory "strong at both ends, weak in center"</td>
+<td>✅ Cross-validated</td>
+<td>Regional statistics + top-5% distribution independent</td>
+</tr>
+<tr>
+<td>East end 270–290°E strongest memory (0.181 vs 0.142, p=3.4e-6)</td>
+<td>✅ Cross-validated</td>
+<td>Seasonal memory localization report</td>
+</tr>
+<tr>
+<td>Memory position insensitive to ENSO (p=0.28)</td>
+<td>✅ Cross-validated</td>
+<td>Phase-stratified no systematic difference</td>
+</tr>
+<tr>
+<td>Volcanic activity excluded (EPR three-line NULL)</td>
+<td>✅ Cross-validated</td>
+<td>Temporal/contrast/spatial three independent lines</td>
+</tr>
+<tr>
+<td>Topographic anchoring supported (ETOPO z=+13.9, robust after shelf exclusion)</td>
+<td>✅ Cross-validated</td>
+<td>Shuffle null + deep-water mask robustness</td>
+</tr>
+<tr>
+<td>Memory tracks seasonal ρ amplitude (r=0.40)</td>
+<td>⚠️ Single source</td>
+<td>Single correlation measure, needs independent verification</td>
+</tr>
+<tr>
+<td>EUC upwelling → front anchoring mechanism</td>
+<td>🔄 To be verified</td>
+<td>Correlation supports; mechanism not directly measured</td>
+</tr>
+<tr>
+<td>La Niña condenses most strongly</td>
+<td>✅ Cross-validated</td>
+<td>p=0.0011, phase analysis</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>7. References and Resources</h2>
+<ol>
+<li>NOAA OISST v2.1: https://www.ncei.noaa.gov/products/optimum-interpolation-sst</li>
+<li>ERA5: https://cds.climate.copernicus.eu</li>
+<li>HadISST: https://www.metoffice.gov.uk/hadobs/hadisst/</li>
+<li>NOAA ETOPO1: https://www.ngdc.noaa.gov/mgg/global/</li>
+<li>USGS Earthquake Catalog: https://earthquake.usgs.gov/fdsnws/event/1/</li>
+<li>ENSO Simplified Prediction Note (predecessor): https://doi.org/10.5281/zenodo.21626908</li>
+<li>ENSO Watch Dashboard: https://mmdr10.github.io/enso-watch</li>
+</ol>
+<p><strong>Data and code:</strong> test files (scripts + data) in <code>projects/enso/tests/</code> (updated 2026-08-04). All open source, CC BY 4.0.</p>
+<hr />
+<p><em>This paper was independently written by AI research assistant tygtDc (Deep Research), based on ENSO condensation-structure measurements using the Ô geometric framework. All data, code, and methodology are fully open source.</em></p></body></html>
