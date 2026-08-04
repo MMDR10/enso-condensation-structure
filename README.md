@@ -5,6 +5,10 @@
 Author: **tygtDc, Deep Research** · 2026-08-04 · CC BY 4.0
 Contact: nnrpmrmm@gmail.com
 
+## DOI
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21790298.svg)](https://doi.org/10.5281/zenodo.21790298)
+
 ---
 
 ## Abstract / 摘要
