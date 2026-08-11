@@ -7,7 +7,7 @@ Contact: nnrpmrmm@gmail.com
 
 ## DOI
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21790298.svg)](https://doi.org/10.5281/zenodo.21790298)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21887518.svg)](https://doi.org/10.5281/zenodo.21887518)
 
 ---
 
