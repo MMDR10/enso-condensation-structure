@@ -1,0 +1,4807 @@
+{
+ "domain": "ENSO OISST 0.25",
+ "n_months": 528,
+ "saddle_frac_by_phase": {
+  "El Nino": {
+   "n": 143,
+   "mean": 0.5638592052268478,
+   "std": 0.001404055925256206,
+   "median": 0.56388450412755,
+   "min": 0.559775835894957,
+   "max": 0.5676608536060361
+  },
+  "La Nina": {
+   "n": 147,
+   "mean": 0.5639881867567689,
+   "std": 0.0016727602502632991,
+   "median": 0.5640506635046034,
+   "min": 0.5605235530916973,
+   "max": 0.5689750232245493
+  },
+  "Neutral": {
+   "n": 238,
+   "mean": 0.5636497675133285,
+   "std": 0.0014504594229788974,
+   "median": 0.563605054266142,
+   "min": 0.5599193371751395,
+   "max": 0.5676306428102083
+  }
+ },
+ "kruskal": {
+  "H": 3.9735088355972197,
+  "p": 0.13713980242628948
+ },
+ "mwu_el_la": {
+  "U": 10066.5,
+  "p": 0.5344850557425065
+ },
+ "spearman_oni": {
+  "rho": -0.02837780990968809,
+  "p": 0.5152672447505056
+ },
+ "null_control": {
+  "n": 480,
+  "mean": 0.5519417359626796,
+  "std": 0.007816634730678017,
+  "z": 1.5841891045905174
+ },
+ "zonal_peak_lat": 4.375,
+ "east_west_density": {
+  "east_270_290": 0.3733811750315657,
+  "west_130_160": 0.40119166929713806
+ },
+ "monthly": [
+  {
+   "year": 1982,
+   "month": 1,
+   "phase": "Neutral",
+   "oni": -0.05,
+   "saddle_frac": 0.5635899488682281,
+   "saddle_n": 74621,
+   "valid_n": 146651
+  },
+  {
+   "year": 1982,
+   "month": 2,
+   "phase": "Neutral",
+   "oni": 0.07,
+   "saddle_frac": 0.5629404167579285,
+   "saddle_n": 74535,
+   "valid_n": 146651
+  },
+  {
+   "year": 1982,
+   "month": 3,
+   "phase": "Neutral",
+   "oni": 0.19,
+   "saddle_frac": 0.5629479694568854,
+   "saddle_n": 74536,
+   "valid_n": 146651
+  },
+  {
+   "year": 1982,
+   "month": 4,
+   "phase": "Neutral",
+   "oni": 0.47,
+   "saddle_frac": 0.561422324267577,
+   "saddle_n": 74334,
+   "valid_n": 146651
+  },
+  {
+   "year": 1982,
+   "month": 5,
+   "phase": "El Nino",
+   "oni": 0.66,
+   "saddle_frac": 0.5644962727430647,
+   "saddle_n": 74741,
+   "valid_n": 146651
+  },
+  {
+   "year": 1982,
+   "month": 6,
+   "phase": "El Nino",
+   "oni": 0.72,
+   "saddle_frac": 0.5634766583838735,
+   "saddle_n": 74606,
+   "valid_n": 146651
+  },
+  {
+   "year": 1982,
+   "month": 7,
+   "phase": "El Nino",
+   "oni": 0.79,
+   "saddle_frac": 0.5655763086939117,
+   "saddle_n": 74884,
+   "valid_n": 146651
+  },
+  {
+   "year": 1982,
+   "month": 8,
+   "phase": "El Nino",
+   "oni": 1.07,
+   "saddle_frac": 0.5626458614986065,
+   "saddle_n": 74496,
+   "valid_n": 146651
+  },
+  {
+   "year": 1982,
+   "month": 9,
+   "phase": "El Nino",
+   "oni": 1.58,
+   "saddle_frac": 0.56388450412755,
+   "saddle_n": 74660,
+   "valid_n": 146651
+  },
+  {
+   "year": 1982,
+   "month": 10,
+   "phase": "El Nino",
+   "oni": 1.97,
+   "saddle_frac": 0.5634540002870025,
+   "saddle_n": 74603,
+   "valid_n": 146651
+  },
+  {
+   "year": 1982,
+   "month": 11,
+   "phase": "El Nino",
+   "oni": 2.18,
+   "saddle_frac": 0.5654328074137293,
+   "saddle_n": 74865,
+   "valid_n": 146651
+  },
+  {
+   "year": 1982,
+   "month": 12,
+   "phase": "El Nino",
+   "oni": 2.23,
+   "saddle_frac": 0.5643301133660114,
+   "saddle_n": 74719,
+   "valid_n": 146651
+  },
+  {
+   "year": 1983,
+   "month": 1,
+   "phase": "El Nino",
+   "oni": 2.18,
+   "saddle_frac": 0.5648965657877842,
+   "saddle_n": 74794,
+   "valid_n": 146651
+  },
+  {
+   "year": 1983,
+   "month": 2,
+   "phase": "El Nino",
+   "oni": 1.92,
+   "saddle_frac": 0.563620159664056,
+   "saddle_n": 74625,
+   "valid_n": 146651
+  },
+  {
+   "year": 1983,
+   "month": 3,
+   "phase": "El Nino",
+   "oni": 1.54,
+   "saddle_frac": 0.5654932290053851,
+   "saddle_n": 74873,
+   "valid_n": 146651
+  },
+  {
+   "year": 1983,
+   "month": 4,
+   "phase": "El Nino",
+   "oni": 1.29,
+   "saddle_frac": 0.5659161801469755,
+   "saddle_n": 74929,
+   "valid_n": 146651
+  },
+  {
+   "year": 1983,
+   "month": 5,
+   "phase": "El Nino",
+   "oni": 1.06,
+   "saddle_frac": 0.5652817534345899,
+   "saddle_n": 74845,
+   "valid_n": 146651
+  },
+  {
+   "year": 1983,
+   "month": 6,
+   "phase": "El Nino",
+   "oni": 0.72,
+   "saddle_frac": 0.5651533575523213,
+   "saddle_n": 74828,
+   "valid_n": 146651
+  },
+  {
+   "year": 1983,
+   "month": 7,
+   "phase": "Neutral",
+   "oni": 0.31,
+   "saddle_frac": 0.5671699281738329,
+   "saddle_n": 75095,
+   "valid_n": 146651
+  },
+  {
+   "year": 1983,
+   "month": 8,
+   "phase": "Neutral",
+   "oni": -0.08,
+   "saddle_frac": 0.565251542638762,
+   "saddle_n": 74841,
+   "valid_n": 146651
+  },
+  {
+   "year": 1983,
+   "month": 9,
+   "phase": "Neutral",
+   "oni": -0.46,
+   "saddle_frac": 0.5653874912199874,
+   "saddle_n": 74859,
+   "valid_n": 146651
+  },
+  {
+   "year": 1983,
+   "month": 10,
+   "phase": "La Nina",
+   "oni": -0.81,
+   "saddle_frac": 0.5628573370694018,
+   "saddle_n": 74524,
+   "valid_n": 146651
+  },
+  {
+   "year": 1983,
+   "month": 11,
+   "phase": "La Nina",
+   "oni": -1.0,
+   "saddle_frac": 0.5658028896626209,
+   "saddle_n": 74914,
+   "valid_n": 146651
+  },
+  {
+   "year": 1983,
+   "month": 12,
+   "phase": "La Nina",
+   "oni": -0.91,
+   "saddle_frac": 0.562766704681918,
+   "saddle_n": 74512,
+   "valid_n": 146651
+  },
+  {
+   "year": 1984,
+   "month": 1,
+   "phase": "La Nina",
+   "oni": -0.6,
+   "saddle_frac": 0.5629253113600144,
+   "saddle_n": 74533,
+   "valid_n": 146651
+  },
+  {
+   "year": 1984,
+   "month": 2,
+   "phase": "Neutral",
+   "oni": -0.42,
+   "saddle_frac": 0.5649267765836121,
+   "saddle_n": 74798,
+   "valid_n": 146651
+  },
+  {
+   "year": 1984,
+   "month": 3,
+   "phase": "Neutral",
+   "oni": -0.34,
+   "saddle_frac": 0.5637032393525826,
+   "saddle_n": 74636,
+   "valid_n": 146651
+  },
+  {
+   "year": 1984,
+   "month": 4,
+   "phase": "Neutral",
+   "oni": -0.43,
+   "saddle_frac": 0.5612561648905237,
+   "saddle_n": 74312,
+   "valid_n": 146651
+  },
+  {
+   "year": 1984,
+   "month": 5,
+   "phase": "La Nina",
+   "oni": -0.51,
+   "saddle_frac": 0.562766704681918,
+   "saddle_n": 74512,
+   "valid_n": 146651
+  },
+  {
+   "year": 1984,
+   "month": 6,
+   "phase": "Neutral",
+   "oni": -0.45,
+   "saddle_frac": 0.5631367869308097,
+   "saddle_n": 74561,
+   "valid_n": 146651
+  },
+  {
+   "year": 1984,
+   "month": 7,
+   "phase": "Neutral",
+   "oni": -0.3,
+   "saddle_frac": 0.5658708639532337,
+   "saddle_n": 74923,
+   "valid_n": 146651
+  },
+  {
+   "year": 1984,
+   "month": 8,
+   "phase": "Neutral",
+   "oni": -0.16,
+   "saddle_frac": 0.5625325710142519,
+   "saddle_n": 74481,
+   "valid_n": 146651
+  },
+  {
+   "year": 1984,
+   "month": 9,
+   "phase": "Neutral",
+   "oni": -0.24,
+   "saddle_frac": 0.5641261904941731,
+   "saddle_n": 74692,
+   "valid_n": 146651
+  },
+  {
+   "year": 1984,
+   "month": 10,
+   "phase": "La Nina",
+   "oni": -0.56,
+   "saddle_frac": 0.5651458048533643,
+   "saddle_n": 74827,
+   "valid_n": 146651
+  },
+  {
+   "year": 1984,
+   "month": 11,
+   "phase": "La Nina",
+   "oni": -0.92,
+   "saddle_frac": 0.5650098562721388,
+   "saddle_n": 74809,
+   "valid_n": 146651
+  },
+  {
+   "year": 1984,
+   "month": 12,
+   "phase": "La Nina",
+   "oni": -1.14,
+   "saddle_frac": 0.5629706275537564,
+   "saddle_n": 74539,
+   "valid_n": 146651
+  },
+  {
+   "year": 1985,
+   "month": 1,
+   "phase": "La Nina",
+   "oni": -1.04,
+   "saddle_frac": 0.5619359077966511,
+   "saddle_n": 74402,
+   "valid_n": 146651
+  },
+  {
+   "year": 1985,
+   "month": 2,
+   "phase": "La Nina",
+   "oni": -0.85,
+   "saddle_frac": 0.5639600311171197,
+   "saddle_n": 74670,
+   "valid_n": 146651
+  },
+  {
+   "year": 1985,
+   "month": 3,
+   "phase": "La Nina",
+   "oni": -0.77,
+   "saddle_frac": 0.5629630748547994,
+   "saddle_n": 74538,
+   "valid_n": 146651
+  },
+  {
+   "year": 1985,
+   "month": 4,
+   "phase": "La Nina",
+   "oni": -0.78,
+   "saddle_frac": 0.563333157103691,
+   "saddle_n": 74587,
+   "valid_n": 146651
+  },
+  {
+   "year": 1985,
+   "month": 5,
+   "phase": "La Nina",
+   "oni": -0.78,
+   "saddle_frac": 0.5622757792497148,
+   "saddle_n": 74447,
+   "valid_n": 146651
+  },
+  {
+   "year": 1985,
+   "month": 6,
+   "phase": "La Nina",
+   "oni": -0.63,
+   "saddle_frac": 0.5631972085224655,
+   "saddle_n": 74569,
+   "valid_n": 146651
+  },
+  {
+   "year": 1985,
+   "month": 7,
+   "phase": "Neutral",
+   "oni": -0.49,
+   "saddle_frac": 0.5620643036789197,
+   "saddle_n": 74419,
+   "valid_n": 146651
+  },
+  {
+   "year": 1985,
+   "month": 8,
+   "phase": "Neutral",
+   "oni": -0.46,
+   "saddle_frac": 0.5631518923287236,
+   "saddle_n": 74563,
+   "valid_n": 146651
+  },
+  {
+   "year": 1985,
+   "month": 9,
+   "phase": "Neutral",
+   "oni": -0.4,
+   "saddle_frac": 0.5634313421901317,
+   "saddle_n": 74600,
+   "valid_n": 146651
+  },
+  {
+   "year": 1985,
+   "month": 10,
+   "phase": "Neutral",
+   "oni": -0.35,
+   "saddle_frac": 0.5637334501484106,
+   "saddle_n": 74640,
+   "valid_n": 146651
+  },
+  {
+   "year": 1985,
+   "month": 11,
+   "phase": "Neutral",
+   "oni": -0.27,
+   "saddle_frac": 0.5646473267222042,
+   "saddle_n": 74761,
+   "valid_n": 146651
+  },
+  {
+   "year": 1985,
+   "month": 12,
+   "phase": "Neutral",
+   "oni": -0.36,
+   "saddle_frac": 0.563605054266142,
+   "saddle_n": 74623,
+   "valid_n": 146651
+  },
+  {
+   "year": 1986,
+   "month": 1,
+   "phase": "Neutral",
+   "oni": -0.49,
+   "saddle_frac": 0.5626383087996496,
+   "saddle_n": 74495,
+   "valid_n": 146651
+  },
+  {
+   "year": 1986,
+   "month": 2,
+   "phase": "Neutral",
+   "oni": -0.47,
+   "saddle_frac": 0.5607350286624926,
+   "saddle_n": 74243,
+   "valid_n": 146651
+  },
+  {
+   "year": 1986,
+   "month": 3,
+   "phase": "Neutral",
+   "oni": -0.31,
+   "saddle_frac": 0.5630990234360249,
+   "saddle_n": 74556,
+   "valid_n": 146651
+  },
+  {
+   "year": 1986,
+   "month": 4,
+   "phase": "Neutral",
+   "oni": -0.2,
+   "saddle_frac": 0.5633029463078632,
+   "saddle_n": 74583,
+   "valid_n": 146651
+  },
+  {
+   "year": 1986,
+   "month": 5,
+   "phase": "Neutral",
+   "oni": -0.12,
+   "saddle_frac": 0.5635219745776153,
+   "saddle_n": 74612,
+   "valid_n": 146651
+  },
+  {
+   "year": 1986,
+   "month": 6,
+   "phase": "Neutral",
+   "oni": -0.04,
+   "saddle_frac": 0.5612561648905237,
+   "saddle_n": 74312,
+   "valid_n": 146651
+  },
+  {
+   "year": 1986,
+   "month": 7,
+   "phase": "Neutral",
+   "oni": 0.22,
+   "saddle_frac": 0.5640808743004313,
+   "saddle_n": 74686,
+   "valid_n": 146651
+  },
+  {
+   "year": 1986,
+   "month": 8,
+   "phase": "Neutral",
+   "oni": 0.44,
+   "saddle_frac": 0.5621171725716184,
+   "saddle_n": 74426,
+   "valid_n": 146651
+  },
+  {
+   "year": 1986,
+   "month": 9,
+   "phase": "El Nino",
+   "oni": 0.71,
+   "saddle_frac": 0.5633633678995189,
+   "saddle_n": 74591,
+   "valid_n": 146651
+  },
+  {
+   "year": 1986,
+   "month": 10,
+   "phase": "El Nino",
+   "oni": 0.94,
+   "saddle_frac": 0.5631292342318528,
+   "saddle_n": 74560,
+   "valid_n": 146651
+  },
+  {
+   "year": 1986,
+   "month": 11,
+   "phase": "El Nino",
+   "oni": 1.14,
+   "saddle_frac": 0.5628271262735739,
+   "saddle_n": 74520,
+   "valid_n": 146651
+  },
+  {
+   "year": 1986,
+   "month": 12,
+   "phase": "El Nino",
+   "oni": 1.22,
+   "saddle_frac": 0.5623815170351125,
+   "saddle_n": 74461,
+   "valid_n": 146651
+  },
+  {
+   "year": 1987,
+   "month": 1,
+   "phase": "El Nino",
+   "oni": 1.23,
+   "saddle_frac": 0.5642017174837428,
+   "saddle_n": 74702,
+   "valid_n": 146651
+  },
+  {
+   "year": 1987,
+   "month": 2,
+   "phase": "El Nino",
+   "oni": 1.19,
+   "saddle_frac": 0.5642168228816568,
+   "saddle_n": 74704,
+   "valid_n": 146651
+  },
+  {
+   "year": 1987,
+   "month": 3,
+   "phase": "El Nino",
+   "oni": 1.06,
+   "saddle_frac": 0.5625325710142519,
+   "saddle_n": 74481,
+   "valid_n": 146651
+  },
+  {
+   "year": 1987,
+   "month": 4,
+   "phase": "El Nino",
+   "oni": 0.95,
+   "saddle_frac": 0.5640053473108615,
+   "saddle_n": 74676,
+   "valid_n": 146651
+  },
+  {
+   "year": 1987,
+   "month": 5,
+   "phase": "El Nino",
+   "oni": 0.97,
+   "saddle_frac": 0.5616866687310711,
+   "saddle_n": 74369,
+   "valid_n": 146651
+  },
+  {
+   "year": 1987,
+   "month": 6,
+   "phase": "El Nino",
+   "oni": 1.22,
+   "saddle_frac": 0.5632198666193364,
+   "saddle_n": 74572,
+   "valid_n": 146651
+  },
+  {
+   "year": 1987,
+   "month": 7,
+   "phase": "El Nino",
+   "oni": 1.51,
+   "saddle_frac": 0.5623059900455428,
+   "saddle_n": 74451,
+   "valid_n": 146651
+  },
+  {
+   "year": 1987,
+   "month": 8,
+   "phase": "El Nino",
+   "oni": 1.7,
+   "saddle_frac": 0.5638316352348511,
+   "saddle_n": 74653,
+   "valid_n": 146651
+  },
+  {
+   "year": 1987,
+   "month": 9,
+   "phase": "El Nino",
+   "oni": 1.65,
+   "saddle_frac": 0.5625929926059077,
+   "saddle_n": 74489,
+   "valid_n": 146651
+  },
+  {
+   "year": 1987,
+   "month": 10,
+   "phase": "El Nino",
+   "oni": 1.48,
+   "saddle_frac": 0.5655838613928688,
+   "saddle_n": 74885,
+   "valid_n": 146651
+  },
+  {
+   "year": 1987,
+   "month": 11,
+   "phase": "El Nino",
+   "oni": 1.25,
+   "saddle_frac": 0.5635295272765722,
+   "saddle_n": 74613,
+   "valid_n": 146651
+  },
+  {
+   "year": 1987,
+   "month": 12,
+   "phase": "El Nino",
+   "oni": 1.11,
+   "saddle_frac": 0.5642319282795707,
+   "saddle_n": 74706,
+   "valid_n": 146651
+  },
+  {
+   "year": 1988,
+   "month": 1,
+   "phase": "El Nino",
+   "oni": 0.81,
+   "saddle_frac": 0.5624268332288543,
+   "saddle_n": 74467,
+   "valid_n": 146651
+  },
+  {
+   "year": 1988,
+   "month": 2,
+   "phase": "El Nino",
+   "oni": 0.54,
+   "saddle_frac": 0.5645189308399357,
+   "saddle_n": 74744,
+   "valid_n": 146651
+  },
+  {
+   "year": 1988,
+   "month": 3,
+   "phase": "Neutral",
+   "oni": 0.14,
+   "saddle_frac": 0.564428298452452,
+   "saddle_n": 74732,
+   "valid_n": 146651
+  },
+  {
+   "year": 1988,
+   "month": 4,
+   "phase": "Neutral",
+   "oni": -0.31,
+   "saddle_frac": 0.5616262471394152,
+   "saddle_n": 74361,
+   "valid_n": 146651
+  },
+  {
+   "year": 1988,
+   "month": 5,
+   "phase": "La Nina",
+   "oni": -0.88,
+   "saddle_frac": 0.5657349153720082,
+   "saddle_n": 74905,
+   "valid_n": 146651
+  },
+  {
+   "year": 1988,
+   "month": 6,
+   "phase": "La Nina",
+   "oni": -1.3,
+   "saddle_frac": 0.562230463055973,
+   "saddle_n": 74441,
+   "valid_n": 146651
+  },
+  {
+   "year": 1988,
+   "month": 7,
+   "phase": "La Nina",
+   "oni": -1.3,
+   "saddle_frac": 0.56495698737944,
+   "saddle_n": 74802,
+   "valid_n": 146651
+  },
+  {
+   "year": 1988,
+   "month": 8,
+   "phase": "La Nina",
+   "oni": -1.11,
+   "saddle_frac": 0.5635748434703142,
+   "saddle_n": 74619,
+   "valid_n": 146651
+  },
+  {
+   "year": 1988,
+   "month": 9,
+   "phase": "La Nina",
+   "oni": -1.19,
+   "saddle_frac": 0.5630310491454121,
+   "saddle_n": 74547,
+   "valid_n": 146651
+  },
+  {
+   "year": 1988,
+   "month": 10,
+   "phase": "La Nina",
+   "oni": -1.48,
+   "saddle_frac": 0.5614827458592327,
+   "saddle_n": 74342,
+   "valid_n": 146651
+  },
+  {
+   "year": 1988,
+   "month": 11,
+   "phase": "La Nina",
+   "oni": -1.8,
+   "saddle_frac": 0.5644585092482799,
+   "saddle_n": 74736,
+   "valid_n": 146651
+  },
+  {
+   "year": 1988,
+   "month": 12,
+   "phase": "La Nina",
+   "oni": -1.85,
+   "saddle_frac": 0.5626987303913054,
+   "saddle_n": 74503,
+   "valid_n": 146651
+  },
+  {
+   "year": 1989,
+   "month": 1,
+   "phase": "La Nina",
+   "oni": -1.69,
+   "saddle_frac": 0.5633029463078632,
+   "saddle_n": 74583,
+   "valid_n": 146651
+  },
+  {
+   "year": 1989,
+   "month": 2,
+   "phase": "La Nina",
+   "oni": -1.43,
+   "saddle_frac": 0.5613090337832224,
+   "saddle_n": 74319,
+   "valid_n": 146651
+  },
+  {
+   "year": 1989,
+   "month": 3,
+   "phase": "La Nina",
+   "oni": -1.08,
+   "saddle_frac": 0.5629932856506272,
+   "saddle_n": 74542,
+   "valid_n": 146651
+  },
+  {
+   "year": 1989,
+   "month": 4,
+   "phase": "La Nina",
+   "oni": -0.83,
+   "saddle_frac": 0.5634842110828304,
+   "saddle_n": 74607,
+   "valid_n": 146651
+  },
+  {
+   "year": 1989,
+   "month": 5,
+   "phase": "La Nina",
+   "oni": -0.58,
+   "saddle_frac": 0.5607576867593634,
+   "saddle_n": 74246,
+   "valid_n": 146651
+  },
+  {
+   "year": 1989,
+   "month": 6,
+   "phase": "Neutral",
+   "oni": -0.4,
+   "saddle_frac": 0.561973671291436,
+   "saddle_n": 74407,
+   "valid_n": 146651
+  },
+  {
+   "year": 1989,
+   "month": 7,
+   "phase": "Neutral",
+   "oni": -0.31,
+   "saddle_frac": 0.5647530645076018,
+   "saddle_n": 74775,
+   "valid_n": 146651
+  },
+  {
+   "year": 1989,
+   "month": 8,
+   "phase": "Neutral",
+   "oni": -0.27,
+   "saddle_frac": 0.5620416455820487,
+   "saddle_n": 74416,
+   "valid_n": 146651
+  },
+  {
+   "year": 1989,
+   "month": 9,
+   "phase": "Neutral",
+   "oni": -0.24,
+   "saddle_frac": 0.5612410594926097,
+   "saddle_n": 74310,
+   "valid_n": 146651
+  },
+  {
+   "year": 1989,
+   "month": 10,
+   "phase": "Neutral",
+   "oni": -0.22,
+   "saddle_frac": 0.5633104990068201,
+   "saddle_n": 74584,
+   "valid_n": 146651
+  },
+  {
+   "year": 1989,
+   "month": 11,
+   "phase": "Neutral",
+   "oni": -0.16,
+   "saddle_frac": 0.5640506635046034,
+   "saddle_n": 74682,
+   "valid_n": 146651
+  },
+  {
+   "year": 1989,
+   "month": 12,
+   "phase": "Neutral",
+   "oni": -0.05,
+   "saddle_frac": 0.5631896558235086,
+   "saddle_n": 74568,
+   "valid_n": 146651
+  },
+  {
+   "year": 1990,
+   "month": 1,
+   "phase": "Neutral",
+   "oni": 0.14,
+   "saddle_frac": 0.5627440465850472,
+   "saddle_n": 74509,
+   "valid_n": 146651
+  },
+  {
+   "year": 1990,
+   "month": 2,
+   "phase": "Neutral",
+   "oni": 0.21,
+   "saddle_frac": 0.5640355581066894,
+   "saddle_n": 74680,
+   "valid_n": 146651
+  },
+  {
+   "year": 1990,
+   "month": 3,
+   "phase": "Neutral",
+   "oni": 0.28,
+   "saddle_frac": 0.56198877668935,
+   "saddle_n": 74409,
+   "valid_n": 146651
+  },
+  {
+   "year": 1990,
+   "month": 4,
+   "phase": "Neutral",
+   "oni": 0.29,
+   "saddle_frac": 0.5638467406327651,
+   "saddle_n": 74655,
+   "valid_n": 146651
+  },
+  {
+   "year": 1990,
+   "month": 5,
+   "phase": "Neutral",
+   "oni": 0.29,
+   "saddle_frac": 0.562789362778789,
+   "saddle_n": 74515,
+   "valid_n": 146651
+  },
+  {
+   "year": 1990,
+   "month": 6,
+   "phase": "Neutral",
+   "oni": 0.31,
+   "saddle_frac": 0.5613845607727922,
+   "saddle_n": 74329,
+   "valid_n": 146651
+  },
+  {
+   "year": 1990,
+   "month": 7,
+   "phase": "Neutral",
+   "oni": 0.33,
+   "saddle_frac": 0.5627062830902623,
+   "saddle_n": 74504,
+   "valid_n": 146651
+  },
+  {
+   "year": 1990,
+   "month": 8,
+   "phase": "Neutral",
+   "oni": 0.38,
+   "saddle_frac": 0.5632651828130782,
+   "saddle_n": 74578,
+   "valid_n": 146651
+  },
+  {
+   "year": 1990,
+   "month": 9,
+   "phase": "Neutral",
+   "oni": 0.39,
+   "saddle_frac": 0.5630234964464551,
+   "saddle_n": 74546,
+   "valid_n": 146651
+  },
+  {
+   "year": 1990,
+   "month": 10,
+   "phase": "Neutral",
+   "oni": 0.35,
+   "saddle_frac": 0.5609691623301587,
+   "saddle_n": 74274,
+   "valid_n": 146651
+  },
+  {
+   "year": 1990,
+   "month": 11,
+   "phase": "Neutral",
+   "oni": 0.4,
+   "saddle_frac": 0.5652893061335468,
+   "saddle_n": 74846,
+   "valid_n": 146651
+  },
+  {
+   "year": 1990,
+   "month": 12,
+   "phase": "Neutral",
+   "oni": 0.41,
+   "saddle_frac": 0.5632878409099492,
+   "saddle_n": 74581,
+   "valid_n": 146651
+  },
+  {
+   "year": 1991,
+   "month": 1,
+   "phase": "Neutral",
+   "oni": 0.41,
+   "saddle_frac": 0.5636579231588408,
+   "saddle_n": 74630,
+   "valid_n": 146651
+  },
+  {
+   "year": 1991,
+   "month": 2,
+   "phase": "Neutral",
+   "oni": 0.26,
+   "saddle_frac": 0.5620189874851779,
+   "saddle_n": 74413,
+   "valid_n": 146651
+  },
+  {
+   "year": 1991,
+   "month": 3,
+   "phase": "Neutral",
+   "oni": 0.22,
+   "saddle_frac": 0.5613694553748783,
+   "saddle_n": 74327,
+   "valid_n": 146651
+  },
+  {
+   "year": 1991,
+   "month": 4,
+   "phase": "Neutral",
+   "oni": 0.26,
+   "saddle_frac": 0.5636654758577978,
+   "saddle_n": 74631,
+   "valid_n": 146651
+  },
+  {
+   "year": 1991,
+   "month": 5,
+   "phase": "Neutral",
+   "oni": 0.45,
+   "saddle_frac": 0.5599193371751395,
+   "saddle_n": 74135,
+   "valid_n": 146651
+  },
+  {
+   "year": 1991,
+   "month": 6,
+   "phase": "El Nino",
+   "oni": 0.64,
+   "saddle_frac": 0.563892056826507,
+   "saddle_n": 74661,
+   "valid_n": 146651
+  },
+  {
+   "year": 1991,
+   "month": 7,
+   "phase": "El Nino",
+   "oni": 0.73,
+   "saddle_frac": 0.559775835894957,
+   "saddle_n": 74116,
+   "valid_n": 146651
+  },
+  {
+   "year": 1991,
+   "month": 8,
+   "phase": "El Nino",
+   "oni": 0.64,
+   "saddle_frac": 0.562796915477746,
+   "saddle_n": 74516,
+   "valid_n": 146651
+  },
+  {
+   "year": 1991,
+   "month": 9,
+   "phase": "El Nino",
+   "oni": 0.62,
+   "saddle_frac": 0.5628951005641866,
+   "saddle_n": 74529,
+   "valid_n": 146651
+  },
+  {
+   "year": 1991,
+   "month": 10,
+   "phase": "El Nino",
+   "oni": 0.79,
+   "saddle_frac": 0.5623135427444997,
+   "saddle_n": 74452,
+   "valid_n": 146651
+  },
+  {
+   "year": 1991,
+   "month": 11,
+   "phase": "El Nino",
+   "oni": 1.21,
+   "saddle_frac": 0.5626534141975635,
+   "saddle_n": 74497,
+   "valid_n": 146651
+  },
+  {
+   "year": 1991,
+   "month": 12,
+   "phase": "El Nino",
+   "oni": 1.53,
+   "saddle_frac": 0.5623059900455428,
+   "saddle_n": 74451,
+   "valid_n": 146651
+  },
+  {
+   "year": 1992,
+   "month": 1,
+   "phase": "El Nino",
+   "oni": 1.71,
+   "saddle_frac": 0.5624797021215532,
+   "saddle_n": 74474,
+   "valid_n": 146651
+  },
+  {
+   "year": 1992,
+   "month": 2,
+   "phase": "El Nino",
+   "oni": 1.63,
+   "saddle_frac": 0.5624645967236392,
+   "saddle_n": 74472,
+   "valid_n": 146651
+  },
+  {
+   "year": 1992,
+   "month": 3,
+   "phase": "El Nino",
+   "oni": 1.48,
+   "saddle_frac": 0.5653723858220735,
+   "saddle_n": 74857,
+   "valid_n": 146651
+  },
+  {
+   "year": 1992,
+   "month": 4,
+   "phase": "El Nino",
+   "oni": 1.29,
+   "saddle_frac": 0.562796915477746,
+   "saddle_n": 74516,
+   "valid_n": 146651
+  },
+  {
+   "year": 1992,
+   "month": 5,
+   "phase": "El Nino",
+   "oni": 1.06,
+   "saddle_frac": 0.5628346789725308,
+   "saddle_n": 74521,
+   "valid_n": 146651
+  },
+  {
+   "year": 1992,
+   "month": 6,
+   "phase": "El Nino",
+   "oni": 0.73,
+   "saddle_frac": 0.5648814603898703,
+   "saddle_n": 74792,
+   "valid_n": 146651
+  },
+  {
+   "year": 1992,
+   "month": 7,
+   "phase": "Neutral",
+   "oni": 0.37,
+   "saddle_frac": 0.5636503704598839,
+   "saddle_n": 74629,
+   "valid_n": 146651
+  },
+  {
+   "year": 1992,
+   "month": 8,
+   "phase": "Neutral",
+   "oni": 0.09,
+   "saddle_frac": 0.5644887200441078,
+   "saddle_n": 74740,
+   "valid_n": 146651
+  },
+  {
+   "year": 1992,
+   "month": 9,
+   "phase": "Neutral",
+   "oni": -0.13,
+   "saddle_frac": 0.5648134860992575,
+   "saddle_n": 74783,
+   "valid_n": 146651
+  },
+  {
+   "year": 1992,
+   "month": 10,
+   "phase": "Neutral",
+   "oni": -0.25,
+   "saddle_frac": 0.5611428744061691,
+   "saddle_n": 74297,
+   "valid_n": 146651
+  },
+  {
+   "year": 1992,
+   "month": 11,
+   "phase": "Neutral",
+   "oni": -0.28,
+   "saddle_frac": 0.5622078049591022,
+   "saddle_n": 74438,
+   "valid_n": 146651
+  },
+  {
+   "year": 1992,
+   "month": 12,
+   "phase": "Neutral",
+   "oni": -0.13,
+   "saddle_frac": 0.5634842110828304,
+   "saddle_n": 74607,
+   "valid_n": 146651
+  },
+  {
+   "year": 1993,
+   "month": 1,
+   "phase": "Neutral",
+   "oni": 0.09,
+   "saddle_frac": 0.5626760722944344,
+   "saddle_n": 74500,
+   "valid_n": 146651
+  },
+  {
+   "year": 1993,
+   "month": 2,
+   "phase": "Neutral",
+   "oni": 0.3,
+   "saddle_frac": 0.563861846030679,
+   "saddle_n": 74657,
+   "valid_n": 146651
+  },
+  {
+   "year": 1993,
+   "month": 3,
+   "phase": "El Nino",
+   "oni": 0.5,
+   "saddle_frac": 0.5628799951662726,
+   "saddle_n": 74527,
+   "valid_n": 146651
+  },
+  {
+   "year": 1993,
+   "month": 4,
+   "phase": "El Nino",
+   "oni": 0.67,
+   "saddle_frac": 0.5618603808070814,
+   "saddle_n": 74392,
+   "valid_n": 146651
+  },
+  {
+   "year": 1993,
+   "month": 5,
+   "phase": "El Nino",
+   "oni": 0.7,
+   "saddle_frac": 0.5621398306684894,
+   "saddle_n": 74429,
+   "valid_n": 146651
+  },
+  {
+   "year": 1993,
+   "month": 6,
+   "phase": "El Nino",
+   "oni": 0.57,
+   "saddle_frac": 0.5641110850962592,
+   "saddle_n": 74690,
+   "valid_n": 146651
+  },
+  {
+   "year": 1993,
+   "month": 7,
+   "phase": "Neutral",
+   "oni": 0.32,
+   "saddle_frac": 0.5637258974494536,
+   "saddle_n": 74639,
+   "valid_n": 146651
+  },
+  {
+   "year": 1993,
+   "month": 8,
+   "phase": "Neutral",
+   "oni": 0.25,
+   "saddle_frac": 0.5624872548205101,
+   "saddle_n": 74475,
+   "valid_n": 146651
+  },
+  {
+   "year": 1993,
+   "month": 9,
+   "phase": "Neutral",
+   "oni": 0.15,
+   "saddle_frac": 0.5644131930545381,
+   "saddle_n": 74730,
+   "valid_n": 146651
+  },
+  {
+   "year": 1993,
+   "month": 10,
+   "phase": "Neutral",
+   "oni": 0.1,
+   "saddle_frac": 0.5617697484195977,
+   "saddle_n": 74380,
+   "valid_n": 146651
+  },
+  {
+   "year": 1993,
+   "month": 11,
+   "phase": "Neutral",
+   "oni": 0.04,
+   "saddle_frac": 0.5622833319486719,
+   "saddle_n": 74448,
+   "valid_n": 146651
+  },
+  {
+   "year": 1993,
+   "month": 12,
+   "phase": "Neutral",
+   "oni": 0.06,
+   "saddle_frac": 0.5620718563778766,
+   "saddle_n": 74420,
+   "valid_n": 146651
+  },
+  {
+   "year": 1994,
+   "month": 1,
+   "phase": "Neutral",
+   "oni": 0.06,
+   "saddle_frac": 0.5615431674508886,
+   "saddle_n": 74350,
+   "valid_n": 146651
+  },
+  {
+   "year": 1994,
+   "month": 2,
+   "phase": "Neutral",
+   "oni": 0.07,
+   "saddle_frac": 0.5626911776923483,
+   "saddle_n": 74502,
+   "valid_n": 146651
+  },
+  {
+   "year": 1994,
+   "month": 3,
+   "phase": "Neutral",
+   "oni": 0.17,
+   "saddle_frac": 0.5622606738518009,
+   "saddle_n": 74445,
+   "valid_n": 146651
+  },
+  {
+   "year": 1994,
+   "month": 4,
+   "phase": "Neutral",
+   "oni": 0.31,
+   "saddle_frac": 0.564405640355581,
+   "saddle_n": 74729,
+   "valid_n": 146651
+  },
+  {
+   "year": 1994,
+   "month": 5,
+   "phase": "Neutral",
+   "oni": 0.42,
+   "saddle_frac": 0.5628422316714878,
+   "saddle_n": 74522,
+   "valid_n": 146651
+  },
+  {
+   "year": 1994,
+   "month": 6,
+   "phase": "Neutral",
+   "oni": 0.41,
+   "saddle_frac": 0.5624041751319834,
+   "saddle_n": 74464,
+   "valid_n": 146651
+  },
+  {
+   "year": 1994,
+   "month": 7,
+   "phase": "Neutral",
+   "oni": 0.44,
+   "saddle_frac": 0.5657575734688791,
+   "saddle_n": 74908,
+   "valid_n": 146651
+  },
+  {
+   "year": 1994,
+   "month": 8,
+   "phase": "Neutral",
+   "oni": 0.43,
+   "saddle_frac": 0.5632500774151643,
+   "saddle_n": 74576,
+   "valid_n": 146651
+  },
+  {
+   "year": 1994,
+   "month": 9,
+   "phase": "El Nino",
+   "oni": 0.55,
+   "saddle_frac": 0.5639826892139906,
+   "saddle_n": 74673,
+   "valid_n": 146651
+  },
+  {
+   "year": 1994,
+   "month": 10,
+   "phase": "El Nino",
+   "oni": 0.74,
+   "saddle_frac": 0.5626836249933914,
+   "saddle_n": 74501,
+   "valid_n": 146651
+  },
+  {
+   "year": 1994,
+   "month": 11,
+   "phase": "El Nino",
+   "oni": 1.01,
+   "saddle_frac": 0.5626987303913054,
+   "saddle_n": 74503,
+   "valid_n": 146651
+  },
+  {
+   "year": 1994,
+   "month": 12,
+   "phase": "El Nino",
+   "oni": 1.09,
+   "saddle_frac": 0.5632123139203794,
+   "saddle_n": 74571,
+   "valid_n": 146651
+  },
+  {
+   "year": 1995,
+   "month": 1,
+   "phase": "El Nino",
+   "oni": 0.96,
+   "saddle_frac": 0.561444982364448,
+   "saddle_n": 74337,
+   "valid_n": 146651
+  },
+  {
+   "year": 1995,
+   "month": 2,
+   "phase": "El Nino",
+   "oni": 0.72,
+   "saddle_frac": 0.5636730285567547,
+   "saddle_n": 74632,
+   "valid_n": 146651
+  },
+  {
+   "year": 1995,
+   "month": 3,
+   "phase": "El Nino",
+   "oni": 0.53,
+   "saddle_frac": 0.5624343859278113,
+   "saddle_n": 74468,
+   "valid_n": 146651
+  },
+  {
+   "year": 1995,
+   "month": 4,
+   "phase": "Neutral",
+   "oni": 0.3,
+   "saddle_frac": 0.5626080980038216,
+   "saddle_n": 74491,
+   "valid_n": 146651
+  },
+  {
+   "year": 1995,
+   "month": 5,
+   "phase": "Neutral",
+   "oni": 0.14,
+   "saddle_frac": 0.5622682265507579,
+   "saddle_n": 74446,
+   "valid_n": 146651
+  },
+  {
+   "year": 1995,
+   "month": 6,
+   "phase": "Neutral",
+   "oni": -0.03,
+   "saddle_frac": 0.5630310491454121,
+   "saddle_n": 74547,
+   "valid_n": 146651
+  },
+  {
+   "year": 1995,
+   "month": 7,
+   "phase": "Neutral",
+   "oni": -0.24,
+   "saddle_frac": 0.560334735617773,
+   "saddle_n": 74190,
+   "valid_n": 146651
+  },
+  {
+   "year": 1995,
+   "month": 8,
+   "phase": "La Nina",
+   "oni": -0.54,
+   "saddle_frac": 0.5635899488682281,
+   "saddle_n": 74621,
+   "valid_n": 146651
+  },
+  {
+   "year": 1995,
+   "month": 9,
+   "phase": "La Nina",
+   "oni": -0.81,
+   "saddle_frac": 0.5645340362378496,
+   "saddle_n": 74746,
+   "valid_n": 146651
+  },
+  {
+   "year": 1995,
+   "month": 10,
+   "phase": "La Nina",
+   "oni": -0.97,
+   "saddle_frac": 0.5615205093540176,
+   "saddle_n": 74347,
+   "valid_n": 146651
+  },
+  {
+   "year": 1995,
+   "month": 11,
+   "phase": "La Nina",
+   "oni": -1.0,
+   "saddle_frac": 0.5648285914971715,
+   "saddle_n": 74785,
+   "valid_n": 146651
+  },
+  {
+   "year": 1995,
+   "month": 12,
+   "phase": "La Nina",
+   "oni": -0.98,
+   "saddle_frac": 0.5609616096312017,
+   "saddle_n": 74273,
+   "valid_n": 146651
+  },
+  {
+   "year": 1996,
+   "month": 1,
+   "phase": "La Nina",
+   "oni": -0.9,
+   "saddle_frac": 0.5628497843704448,
+   "saddle_n": 74523,
+   "valid_n": 146651
+  },
+  {
+   "year": 1996,
+   "month": 2,
+   "phase": "La Nina",
+   "oni": -0.75,
+   "saddle_frac": 0.5605235530916973,
+   "saddle_n": 74215,
+   "valid_n": 146651
+  },
+  {
+   "year": 1996,
+   "month": 3,
+   "phase": "La Nina",
+   "oni": -0.59,
+   "saddle_frac": 0.5647455118086449,
+   "saddle_n": 74774,
+   "valid_n": 146651
+  },
+  {
+   "year": 1996,
+   "month": 4,
+   "phase": "Neutral",
+   "oni": -0.39,
+   "saddle_frac": 0.5639449257192057,
+   "saddle_n": 74668,
+   "valid_n": 146651
+  },
+  {
+   "year": 1996,
+   "month": 5,
+   "phase": "Neutral",
+   "oni": -0.31,
+   "saddle_frac": 0.5625325710142519,
+   "saddle_n": 74481,
+   "valid_n": 146651
+  },
+  {
+   "year": 1996,
+   "month": 6,
+   "phase": "Neutral",
+   "oni": -0.3,
+   "saddle_frac": 0.5630990234360249,
+   "saddle_n": 74556,
+   "valid_n": 146651
+  },
+  {
+   "year": 1996,
+   "month": 7,
+   "phase": "Neutral",
+   "oni": -0.27,
+   "saddle_frac": 0.5603876045104719,
+   "saddle_n": 74197,
+   "valid_n": 146651
+  },
+  {
+   "year": 1996,
+   "month": 8,
+   "phase": "Neutral",
+   "oni": -0.32,
+   "saddle_frac": 0.5635899488682281,
+   "saddle_n": 74621,
+   "valid_n": 146651
+  },
+  {
+   "year": 1996,
+   "month": 9,
+   "phase": "Neutral",
+   "oni": -0.35,
+   "saddle_frac": 0.5653497277252026,
+   "saddle_n": 74854,
+   "valid_n": 146651
+  },
+  {
+   "year": 1996,
+   "month": 10,
+   "phase": "Neutral",
+   "oni": -0.4,
+   "saddle_frac": 0.565787784264707,
+   "saddle_n": 74912,
+   "valid_n": 146651
+  },
+  {
+   "year": 1996,
+   "month": 11,
+   "phase": "Neutral",
+   "oni": -0.45,
+   "saddle_frac": 0.5646322213242903,
+   "saddle_n": 74759,
+   "valid_n": 146651
+  },
+  {
+   "year": 1996,
+   "month": 12,
+   "phase": "Neutral",
+   "oni": -0.49,
+   "saddle_frac": 0.5631896558235086,
+   "saddle_n": 74568,
+   "valid_n": 146651
+  },
+  {
+   "year": 1997,
+   "month": 1,
+   "phase": "La Nina",
+   "oni": -0.5,
+   "saddle_frac": 0.5618905916029093,
+   "saddle_n": 74396,
+   "valid_n": 146651
+  },
+  {
+   "year": 1997,
+   "month": 2,
+   "phase": "Neutral",
+   "oni": -0.36,
+   "saddle_frac": 0.561429876966534,
+   "saddle_n": 74335,
+   "valid_n": 146651
+  },
+  {
+   "year": 1997,
+   "month": 3,
+   "phase": "Neutral",
+   "oni": -0.1,
+   "saddle_frac": 0.56223801575493,
+   "saddle_n": 74442,
+   "valid_n": 146651
+  },
+  {
+   "year": 1997,
+   "month": 4,
+   "phase": "Neutral",
+   "oni": 0.28,
+   "saddle_frac": 0.5628648897683587,
+   "saddle_n": 74525,
+   "valid_n": 146651
+  },
+  {
+   "year": 1997,
+   "month": 5,
+   "phase": "El Nino",
+   "oni": 0.75,
+   "saddle_frac": 0.5620340928830918,
+   "saddle_n": 74415,
+   "valid_n": 146651
+  },
+  {
+   "year": 1997,
+   "month": 6,
+   "phase": "El Nino",
+   "oni": 1.22,
+   "saddle_frac": 0.5645415889368066,
+   "saddle_n": 74747,
+   "valid_n": 146651
+  },
+  {
+   "year": 1997,
+   "month": 7,
+   "phase": "El Nino",
+   "oni": 1.6,
+   "saddle_frac": 0.5622606738518009,
+   "saddle_n": 74445,
+   "valid_n": 146651
+  },
+  {
+   "year": 1997,
+   "month": 8,
+   "phase": "El Nino",
+   "oni": 1.9,
+   "saddle_frac": 0.5643452187639253,
+   "saddle_n": 74721,
+   "valid_n": 146651
+  },
+  {
+   "year": 1997,
+   "month": 9,
+   "phase": "El Nino",
+   "oni": 2.14,
+   "saddle_frac": 0.561716879526899,
+   "saddle_n": 74373,
+   "valid_n": 146651
+  },
+  {
+   "year": 1997,
+   "month": 10,
+   "phase": "El Nino",
+   "oni": 2.33,
+   "saddle_frac": 0.5641866120858289,
+   "saddle_n": 74700,
+   "valid_n": 146651
+  },
+  {
+   "year": 1997,
+   "month": 11,
+   "phase": "El Nino",
+   "oni": 2.4,
+   "saddle_frac": 0.5623513062392846,
+   "saddle_n": 74457,
+   "valid_n": 146651
+  },
+  {
+   "year": 1997,
+   "month": 12,
+   "phase": "El Nino",
+   "oni": 2.39,
+   "saddle_frac": 0.5629479694568854,
+   "saddle_n": 74536,
+   "valid_n": 146651
+  },
+  {
+   "year": 1998,
+   "month": 1,
+   "phase": "El Nino",
+   "oni": 2.24,
+   "saddle_frac": 0.5618301700112536,
+   "saddle_n": 74388,
+   "valid_n": 146651
+  },
+  {
+   "year": 1998,
+   "month": 2,
+   "phase": "El Nino",
+   "oni": 1.93,
+   "saddle_frac": 0.5655612032959978,
+   "saddle_n": 74882,
+   "valid_n": 146651
+  },
+  {
+   "year": 1998,
+   "month": 3,
+   "phase": "El Nino",
+   "oni": 1.44,
+   "saddle_frac": 0.5617319849248129,
+   "saddle_n": 74375,
+   "valid_n": 146651
+  },
+  {
+   "year": 1998,
+   "month": 4,
+   "phase": "El Nino",
+   "oni": 0.99,
+   "saddle_frac": 0.5641261904941731,
+   "saddle_n": 74692,
+   "valid_n": 146651
+  },
+  {
+   "year": 1998,
+   "month": 5,
+   "phase": "Neutral",
+   "oni": 0.45,
+   "saddle_frac": 0.5640808743004313,
+   "saddle_n": 74686,
+   "valid_n": 146651
+  },
+  {
+   "year": 1998,
+   "month": 6,
+   "phase": "Neutral",
+   "oni": -0.13,
+   "saddle_frac": 0.5629706275537564,
+   "saddle_n": 74539,
+   "valid_n": 146651
+  },
+  {
+   "year": 1998,
+   "month": 7,
+   "phase": "La Nina",
+   "oni": -0.78,
+   "saddle_frac": 0.5638542933317221,
+   "saddle_n": 74656,
+   "valid_n": 146651
+  },
+  {
+   "year": 1998,
+   "month": 8,
+   "phase": "La Nina",
+   "oni": -1.12,
+   "saddle_frac": 0.564692642915946,
+   "saddle_n": 74767,
+   "valid_n": 146651
+  },
+  {
+   "year": 1998,
+   "month": 9,
+   "phase": "La Nina",
+   "oni": -1.31,
+   "saddle_frac": 0.5654781236074712,
+   "saddle_n": 74871,
+   "valid_n": 146651
+  },
+  {
+   "year": 1998,
+   "month": 10,
+   "phase": "La Nina",
+   "oni": -1.35,
+   "saddle_frac": 0.5645038254420217,
+   "saddle_n": 74742,
+   "valid_n": 146651
+  },
+  {
+   "year": 1998,
+   "month": 11,
+   "phase": "La Nina",
+   "oni": -1.48,
+   "saddle_frac": 0.5633558152005619,
+   "saddle_n": 74590,
+   "valid_n": 146651
+  },
+  {
+   "year": 1998,
+   "month": 12,
+   "phase": "La Nina",
+   "oni": -1.57,
+   "saddle_frac": 0.5626307561006926,
+   "saddle_n": 74494,
+   "valid_n": 146651
+  },
+  {
+   "year": 1999,
+   "month": 1,
+   "phase": "La Nina",
+   "oni": -1.55,
+   "saddle_frac": 0.561973671291436,
+   "saddle_n": 74407,
+   "valid_n": 146651
+  },
+  {
+   "year": 1999,
+   "month": 2,
+   "phase": "La Nina",
+   "oni": -1.3,
+   "saddle_frac": 0.5641261904941731,
+   "saddle_n": 74692,
+   "valid_n": 146651
+  },
+  {
+   "year": 1999,
+   "month": 3,
+   "phase": "La Nina",
+   "oni": -1.07,
+   "saddle_frac": 0.5647455118086449,
+   "saddle_n": 74774,
+   "valid_n": 146651
+  },
+  {
+   "year": 1999,
+   "month": 4,
+   "phase": "La Nina",
+   "oni": -0.98,
+   "saddle_frac": 0.5625099129173811,
+   "saddle_n": 74478,
+   "valid_n": 146651
+  },
+  {
+   "year": 1999,
+   "month": 5,
+   "phase": "La Nina",
+   "oni": -1.02,
+   "saddle_frac": 0.5628799951662726,
+   "saddle_n": 74527,
+   "valid_n": 146651
+  },
+  {
+   "year": 1999,
+   "month": 6,
+   "phase": "La Nina",
+   "oni": -1.04,
+   "saddle_frac": 0.5606292908770949,
+   "saddle_n": 74229,
+   "valid_n": 146651
+  },
+  {
+   "year": 1999,
+   "month": 7,
+   "phase": "La Nina",
+   "oni": -1.1,
+   "saddle_frac": 0.562502360218424,
+   "saddle_n": 74477,
+   "valid_n": 146651
+  },
+  {
+   "year": 1999,
+   "month": 8,
+   "phase": "La Nina",
+   "oni": -1.11,
+   "saddle_frac": 0.5644509565493229,
+   "saddle_n": 74735,
+   "valid_n": 146651
+  },
+  {
+   "year": 1999,
+   "month": 9,
+   "phase": "La Nina",
+   "oni": -1.16,
+   "saddle_frac": 0.5626685195954775,
+   "saddle_n": 74499,
+   "valid_n": 146651
+  },
+  {
+   "year": 1999,
+   "month": 10,
+   "phase": "La Nina",
+   "oni": -1.26,
+   "saddle_frac": 0.5613770080738352,
+   "saddle_n": 74328,
+   "valid_n": 146651
+  },
+  {
+   "year": 1999,
+   "month": 11,
+   "phase": "La Nina",
+   "oni": -1.46,
+   "saddle_frac": 0.5618452754091675,
+   "saddle_n": 74390,
+   "valid_n": 146651
+  },
+  {
+   "year": 1999,
+   "month": 12,
+   "phase": "La Nina",
+   "oni": -1.65,
+   "saddle_frac": 0.5627289411871332,
+   "saddle_n": 74507,
+   "valid_n": 146651
+  },
+  {
+   "year": 2000,
+   "month": 1,
+   "phase": "La Nina",
+   "oni": -1.66,
+   "saddle_frac": 0.5636352650619699,
+   "saddle_n": 74627,
+   "valid_n": 146651
+  },
+  {
+   "year": 2000,
+   "month": 2,
+   "phase": "La Nina",
+   "oni": -1.41,
+   "saddle_frac": 0.5609465042332877,
+   "saddle_n": 74271,
+   "valid_n": 146651
+  },
+  {
+   "year": 2000,
+   "month": 3,
+   "phase": "La Nina",
+   "oni": -1.07,
+   "saddle_frac": 0.5613316918800934,
+   "saddle_n": 74322,
+   "valid_n": 146651
+  },
+  {
+   "year": 2000,
+   "month": 4,
+   "phase": "La Nina",
+   "oni": -0.81,
+   "saddle_frac": 0.5611655325030399,
+   "saddle_n": 74300,
+   "valid_n": 146651
+  },
+  {
+   "year": 2000,
+   "month": 5,
+   "phase": "La Nina",
+   "oni": -0.71,
+   "saddle_frac": 0.5641639539889579,
+   "saddle_n": 74697,
+   "valid_n": 146651
+  },
+  {
+   "year": 2000,
+   "month": 6,
+   "phase": "La Nina",
+   "oni": -0.64,
+   "saddle_frac": 0.5625476764121659,
+   "saddle_n": 74483,
+   "valid_n": 146651
+  },
+  {
+   "year": 2000,
+   "month": 7,
+   "phase": "La Nina",
+   "oni": -0.55,
+   "saddle_frac": 0.5609389515343308,
+   "saddle_n": 74270,
+   "valid_n": 146651
+  },
+  {
+   "year": 2000,
+   "month": 8,
+   "phase": "La Nina",
+   "oni": -0.51,
+   "saddle_frac": 0.5628799951662726,
+   "saddle_n": 74527,
+   "valid_n": 146651
+  },
+  {
+   "year": 2000,
+   "month": 9,
+   "phase": "La Nina",
+   "oni": -0.55,
+   "saddle_frac": 0.5654403601126863,
+   "saddle_n": 74866,
+   "valid_n": 146651
+  },
+  {
+   "year": 2000,
+   "month": 10,
+   "phase": "La Nina",
+   "oni": -0.63,
+   "saddle_frac": 0.5619056970008233,
+   "saddle_n": 74398,
+   "valid_n": 146651
+  },
+  {
+   "year": 2000,
+   "month": 11,
+   "phase": "La Nina",
+   "oni": -0.75,
+   "saddle_frac": 0.5627062830902623,
+   "saddle_n": 74504,
+   "valid_n": 146651
+  },
+  {
+   "year": 2000,
+   "month": 12,
+   "phase": "La Nina",
+   "oni": -0.74,
+   "saddle_frac": 0.5620567509799627,
+   "saddle_n": 74418,
+   "valid_n": 146651
+  },
+  {
+   "year": 2001,
+   "month": 1,
+   "phase": "La Nina",
+   "oni": -0.68,
+   "saddle_frac": 0.5631443396297667,
+   "saddle_n": 74562,
+   "valid_n": 146651
+  },
+  {
+   "year": 2001,
+   "month": 2,
+   "phase": "La Nina",
+   "oni": -0.52,
+   "saddle_frac": 0.5635068691797014,
+   "saddle_n": 74610,
+   "valid_n": 146651
+  },
+  {
+   "year": 2001,
+   "month": 3,
+   "phase": "Neutral",
+   "oni": -0.44,
+   "saddle_frac": 0.5613543499769643,
+   "saddle_n": 74325,
+   "valid_n": 146651
+  },
+  {
+   "year": 2001,
+   "month": 4,
+   "phase": "Neutral",
+   "oni": -0.34,
+   "saddle_frac": 0.563325604404734,
+   "saddle_n": 74586,
+   "valid_n": 146651
+  },
+  {
+   "year": 2001,
+   "month": 5,
+   "phase": "Neutral",
+   "oni": -0.25,
+   "saddle_frac": 0.5619510131945651,
+   "saddle_n": 74404,
+   "valid_n": 146651
+  },
+  {
+   "year": 2001,
+   "month": 6,
+   "phase": "Neutral",
+   "oni": -0.12,
+   "saddle_frac": 0.5638316352348511,
+   "saddle_n": 74653,
+   "valid_n": 146651
+  },
+  {
+   "year": 2001,
+   "month": 7,
+   "phase": "Neutral",
+   "oni": -0.08,
+   "saddle_frac": 0.5631518923287236,
+   "saddle_n": 74563,
+   "valid_n": 146651
+  },
+  {
+   "year": 2001,
+   "month": 8,
+   "phase": "Neutral",
+   "oni": -0.13,
+   "saddle_frac": 0.5645793524315914,
+   "saddle_n": 74752,
+   "valid_n": 146651
+  },
+  {
+   "year": 2001,
+   "month": 9,
+   "phase": "Neutral",
+   "oni": -0.19,
+   "saddle_frac": 0.5632727355120353,
+   "saddle_n": 74579,
+   "valid_n": 146651
+  },
+  {
+   "year": 2001,
+   "month": 10,
+   "phase": "Neutral",
+   "oni": -0.29,
+   "saddle_frac": 0.5631594450276807,
+   "saddle_n": 74564,
+   "valid_n": 146651
+  },
+  {
+   "year": 2001,
+   "month": 11,
+   "phase": "Neutral",
+   "oni": -0.35,
+   "saddle_frac": 0.5640657689025174,
+   "saddle_n": 74684,
+   "valid_n": 146651
+  },
+  {
+   "year": 2001,
+   "month": 12,
+   "phase": "Neutral",
+   "oni": -0.31,
+   "saddle_frac": 0.563597501567185,
+   "saddle_n": 74622,
+   "valid_n": 146651
+  },
+  {
+   "year": 2002,
+   "month": 1,
+   "phase": "Neutral",
+   "oni": -0.15,
+   "saddle_frac": 0.56470774831386,
+   "saddle_n": 74769,
+   "valid_n": 146651
+  },
+  {
+   "year": 2002,
+   "month": 2,
+   "phase": "Neutral",
+   "oni": 0.03,
+   "saddle_frac": 0.5621398306684894,
+   "saddle_n": 74429,
+   "valid_n": 146651
+  },
+  {
+   "year": 2002,
+   "month": 3,
+   "phase": "Neutral",
+   "oni": 0.09,
+   "saddle_frac": 0.5649947508742249,
+   "saddle_n": 74807,
+   "valid_n": 146651
+  },
+  {
+   "year": 2002,
+   "month": 4,
+   "phase": "Neutral",
+   "oni": 0.2,
+   "saddle_frac": 0.5620491982810057,
+   "saddle_n": 74417,
+   "valid_n": 146651
+  },
+  {
+   "year": 2002,
+   "month": 5,
+   "phase": "Neutral",
+   "oni": 0.43,
+   "saddle_frac": 0.5617924065164687,
+   "saddle_n": 74383,
+   "valid_n": 146651
+  },
+  {
+   "year": 2002,
+   "month": 6,
+   "phase": "El Nino",
+   "oni": 0.65,
+   "saddle_frac": 0.564156401290001,
+   "saddle_n": 74696,
+   "valid_n": 146651
+  },
+  {
+   "year": 2002,
+   "month": 7,
+   "phase": "El Nino",
+   "oni": 0.79,
+   "saddle_frac": 0.5644887200441078,
+   "saddle_n": 74740,
+   "valid_n": 146651
+  },
+  {
+   "year": 2002,
+   "month": 8,
+   "phase": "El Nino",
+   "oni": 0.86,
+   "saddle_frac": 0.5639751365150336,
+   "saddle_n": 74672,
+   "valid_n": 146651
+  },
+  {
+   "year": 2002,
+   "month": 9,
+   "phase": "El Nino",
+   "oni": 1.01,
+   "saddle_frac": 0.5623362008413707,
+   "saddle_n": 74455,
+   "valid_n": 146651
+  },
+  {
+   "year": 2002,
+   "month": 10,
+   "phase": "El Nino",
+   "oni": 1.21,
+   "saddle_frac": 0.5631443396297667,
+   "saddle_n": 74562,
+   "valid_n": 146651
+  },
+  {
+   "year": 2002,
+   "month": 11,
+   "phase": "El Nino",
+   "oni": 1.31,
+   "saddle_frac": 0.5629328640589715,
+   "saddle_n": 74534,
+   "valid_n": 146651
+  },
+  {
+   "year": 2002,
+   "month": 12,
+   "phase": "El Nino",
+   "oni": 1.14,
+   "saddle_frac": 0.5622908846476288,
+   "saddle_n": 74449,
+   "valid_n": 146651
+  },
+  {
+   "year": 2003,
+   "month": 1,
+   "phase": "El Nino",
+   "oni": 0.92,
+   "saddle_frac": 0.5645717997326345,
+   "saddle_n": 74751,
+   "valid_n": 146651
+  },
+  {
+   "year": 2003,
+   "month": 2,
+   "phase": "El Nino",
+   "oni": 0.63,
+   "saddle_frac": 0.5646171159263763,
+   "saddle_n": 74757,
+   "valid_n": 146651
+  },
+  {
+   "year": 2003,
+   "month": 3,
+   "phase": "Neutral",
+   "oni": 0.38,
+   "saddle_frac": 0.5648663549919564,
+   "saddle_n": 74790,
+   "valid_n": 146651
+  },
+  {
+   "year": 2003,
+   "month": 4,
+   "phase": "Neutral",
+   "oni": -0.04,
+   "saddle_frac": 0.5628875478652297,
+   "saddle_n": 74528,
+   "valid_n": 146651
+  },
+  {
+   "year": 2003,
+   "month": 5,
+   "phase": "Neutral",
+   "oni": -0.26,
+   "saddle_frac": 0.5633784732974328,
+   "saddle_n": 74593,
+   "valid_n": 146651
+  },
+  {
+   "year": 2003,
+   "month": 6,
+   "phase": "Neutral",
+   "oni": -0.16,
+   "saddle_frac": 0.5636352650619699,
+   "saddle_n": 74627,
+   "valid_n": 146651
+  },
+  {
+   "year": 2003,
+   "month": 7,
+   "phase": "Neutral",
+   "oni": 0.08,
+   "saddle_frac": 0.5619963293883069,
+   "saddle_n": 74410,
+   "valid_n": 146651
+  },
+  {
+   "year": 2003,
+   "month": 8,
+   "phase": "Neutral",
+   "oni": 0.21,
+   "saddle_frac": 0.5626911776923483,
+   "saddle_n": 74502,
+   "valid_n": 146651
+  },
+  {
+   "year": 2003,
+   "month": 9,
+   "phase": "Neutral",
+   "oni": 0.26,
+   "saddle_frac": 0.5627062830902623,
+   "saddle_n": 74504,
+   "valid_n": 146651
+  },
+  {
+   "year": 2003,
+   "month": 10,
+   "phase": "Neutral",
+   "oni": 0.29,
+   "saddle_frac": 0.563892056826507,
+   "saddle_n": 74661,
+   "valid_n": 146651
+  },
+  {
+   "year": 2003,
+   "month": 11,
+   "phase": "Neutral",
+   "oni": 0.35,
+   "saddle_frac": 0.5634917637817874,
+   "saddle_n": 74608,
+   "valid_n": 146651
+  },
+  {
+   "year": 2003,
+   "month": 12,
+   "phase": "Neutral",
+   "oni": 0.35,
+   "saddle_frac": 0.5635899488682281,
+   "saddle_n": 74621,
+   "valid_n": 146651
+  },
+  {
+   "year": 2004,
+   "month": 1,
+   "phase": "Neutral",
+   "oni": 0.37,
+   "saddle_frac": 0.5647832753034296,
+   "saddle_n": 74779,
+   "valid_n": 146651
+  },
+  {
+   "year": 2004,
+   "month": 2,
+   "phase": "Neutral",
+   "oni": 0.31,
+   "saddle_frac": 0.5621247252705754,
+   "saddle_n": 74427,
+   "valid_n": 146651
+  },
+  {
+   "year": 2004,
+   "month": 3,
+   "phase": "Neutral",
+   "oni": 0.23,
+   "saddle_frac": 0.5615205093540176,
+   "saddle_n": 74347,
+   "valid_n": 146651
+  },
+  {
+   "year": 2004,
+   "month": 4,
+   "phase": "Neutral",
+   "oni": 0.17,
+   "saddle_frac": 0.5615129566550607,
+   "saddle_n": 74346,
+   "valid_n": 146651
+  },
+  {
+   "year": 2004,
+   "month": 5,
+   "phase": "Neutral",
+   "oni": 0.17,
+   "saddle_frac": 0.5651533575523213,
+   "saddle_n": 74828,
+   "valid_n": 146651
+  },
+  {
+   "year": 2004,
+   "month": 6,
+   "phase": "Neutral",
+   "oni": 0.28,
+   "saddle_frac": 0.5641035323973022,
+   "saddle_n": 74689,
+   "valid_n": 146651
+  },
+  {
+   "year": 2004,
+   "month": 7,
+   "phase": "Neutral",
+   "oni": 0.47,
+   "saddle_frac": 0.5631216815328958,
+   "saddle_n": 74559,
+   "valid_n": 146651
+  },
+  {
+   "year": 2004,
+   "month": 8,
+   "phase": "El Nino",
+   "oni": 0.64,
+   "saddle_frac": 0.5637787663421524,
+   "saddle_n": 74646,
+   "valid_n": 146651
+  },
+  {
+   "year": 2004,
+   "month": 9,
+   "phase": "El Nino",
+   "oni": 0.7,
+   "saddle_frac": 0.565787784264707,
+   "saddle_n": 74912,
+   "valid_n": 146651
+  },
+  {
+   "year": 2004,
+   "month": 10,
+   "phase": "El Nino",
+   "oni": 0.67,
+   "saddle_frac": 0.5628648897683587,
+   "saddle_n": 74525,
+   "valid_n": 146651
+  },
+  {
+   "year": 2004,
+   "month": 11,
+   "phase": "El Nino",
+   "oni": 0.66,
+   "saddle_frac": 0.5618830389039523,
+   "saddle_n": 74395,
+   "valid_n": 146651
+  },
+  {
+   "year": 2004,
+   "month": 12,
+   "phase": "El Nino",
+   "oni": 0.69,
+   "saddle_frac": 0.5642319282795707,
+   "saddle_n": 74706,
+   "valid_n": 146651
+  },
+  {
+   "year": 2005,
+   "month": 1,
+   "phase": "El Nino",
+   "oni": 0.64,
+   "saddle_frac": 0.5616186944404583,
+   "saddle_n": 74360,
+   "valid_n": 146651
+  },
+  {
+   "year": 2005,
+   "month": 2,
+   "phase": "El Nino",
+   "oni": 0.58,
+   "saddle_frac": 0.5612259540946958,
+   "saddle_n": 74308,
+   "valid_n": 146651
+  },
+  {
+   "year": 2005,
+   "month": 3,
+   "phase": "Neutral",
+   "oni": 0.45,
+   "saddle_frac": 0.5623966224330265,
+   "saddle_n": 74463,
+   "valid_n": 146651
+  },
+  {
+   "year": 2005,
+   "month": 4,
+   "phase": "Neutral",
+   "oni": 0.43,
+   "saddle_frac": 0.5640959796983452,
+   "saddle_n": 74688,
+   "valid_n": 146651
+  },
+  {
+   "year": 2005,
+   "month": 5,
+   "phase": "Neutral",
+   "oni": 0.29,
+   "saddle_frac": 0.561135321707212,
+   "saddle_n": 74296,
+   "valid_n": 146651
+  },
+  {
+   "year": 2005,
+   "month": 6,
+   "phase": "Neutral",
+   "oni": 0.11,
+   "saddle_frac": 0.5624494913257252,
+   "saddle_n": 74470,
+   "valid_n": 146651
+  },
+  {
+   "year": 2005,
+   "month": 7,
+   "phase": "Neutral",
+   "oni": -0.06,
+   "saddle_frac": 0.5626987303913054,
+   "saddle_n": 74503,
+   "valid_n": 146651
+  },
+  {
+   "year": 2005,
+   "month": 8,
+   "phase": "Neutral",
+   "oni": -0.14,
+   "saddle_frac": 0.56306125994124,
+   "saddle_n": 74551,
+   "valid_n": 146651
+  },
+  {
+   "year": 2005,
+   "month": 9,
+   "phase": "Neutral",
+   "oni": -0.11,
+   "saddle_frac": 0.5641110850962592,
+   "saddle_n": 74690,
+   "valid_n": 146651
+  },
+  {
+   "year": 2005,
+   "month": 10,
+   "phase": "Neutral",
+   "oni": -0.29,
+   "saddle_frac": 0.5626156507027786,
+   "saddle_n": 74492,
+   "valid_n": 146651
+  },
+  {
+   "year": 2005,
+   "month": 11,
+   "phase": "La Nina",
+   "oni": -0.57,
+   "saddle_frac": 0.5642319282795707,
+   "saddle_n": 74706,
+   "valid_n": 146651
+  },
+  {
+   "year": 2005,
+   "month": 12,
+   "phase": "La Nina",
+   "oni": -0.84,
+   "saddle_frac": 0.5641186377952161,
+   "saddle_n": 74691,
+   "valid_n": 146651
+  },
+  {
+   "year": 2006,
+   "month": 1,
+   "phase": "La Nina",
+   "oni": -0.85,
+   "saddle_frac": 0.5642696917743556,
+   "saddle_n": 74711,
+   "valid_n": 146651
+  },
+  {
+   "year": 2006,
+   "month": 2,
+   "phase": "La Nina",
+   "oni": -0.77,
+   "saddle_frac": 0.5648890130888273,
+   "saddle_n": 74793,
+   "valid_n": 146651
+  },
+  {
+   "year": 2006,
+   "month": 3,
+   "phase": "La Nina",
+   "oni": -0.57,
+   "saddle_frac": 0.5620416455820487,
+   "saddle_n": 74416,
+   "valid_n": 146651
+  },
+  {
+   "year": 2006,
+   "month": 4,
+   "phase": "Neutral",
+   "oni": -0.37,
+   "saddle_frac": 0.5636654758577978,
+   "saddle_n": 74631,
+   "valid_n": 146651
+  },
+  {
+   "year": 2006,
+   "month": 5,
+   "phase": "Neutral",
+   "oni": -0.14,
+   "saddle_frac": 0.5621775941632743,
+   "saddle_n": 74434,
+   "valid_n": 146651
+  },
+  {
+   "year": 2006,
+   "month": 6,
+   "phase": "Neutral",
+   "oni": -0.03,
+   "saddle_frac": 0.5644887200441078,
+   "saddle_n": 74740,
+   "valid_n": 146651
+  },
+  {
+   "year": 2006,
+   "month": 7,
+   "phase": "Neutral",
+   "oni": 0.1,
+   "saddle_frac": 0.5640733216014743,
+   "saddle_n": 74685,
+   "valid_n": 146651
+  },
+  {
+   "year": 2006,
+   "month": 8,
+   "phase": "Neutral",
+   "oni": 0.3,
+   "saddle_frac": 0.5601081546490638,
+   "saddle_n": 74160,
+   "valid_n": 146651
+  },
+  {
+   "year": 2006,
+   "month": 9,
+   "phase": "El Nino",
+   "oni": 0.54,
+   "saddle_frac": 0.5636428177609268,
+   "saddle_n": 74628,
+   "valid_n": 146651
+  },
+  {
+   "year": 2006,
+   "month": 10,
+   "phase": "El Nino",
+   "oni": 0.77,
+   "saddle_frac": 0.5630310491454121,
+   "saddle_n": 74547,
+   "valid_n": 146651
+  },
+  {
+   "year": 2006,
+   "month": 11,
+   "phase": "El Nino",
+   "oni": 0.94,
+   "saddle_frac": 0.5643150079680974,
+   "saddle_n": 74717,
+   "valid_n": 146651
+  },
+  {
+   "year": 2006,
+   "month": 12,
+   "phase": "El Nino",
+   "oni": 0.94,
+   "saddle_frac": 0.5613014810842655,
+   "saddle_n": 74318,
+   "valid_n": 146651
+  },
+  {
+   "year": 2007,
+   "month": 1,
+   "phase": "El Nino",
+   "oni": 0.66,
+   "saddle_frac": 0.5649343292825691,
+   "saddle_n": 74799,
+   "valid_n": 146651
+  },
+  {
+   "year": 2007,
+   "month": 2,
+   "phase": "Neutral",
+   "oni": 0.22,
+   "saddle_frac": 0.5644585092482799,
+   "saddle_n": 74736,
+   "valid_n": 146651
+  },
+  {
+   "year": 2007,
+   "month": 3,
+   "phase": "Neutral",
+   "oni": -0.12,
+   "saddle_frac": 0.5654705709085142,
+   "saddle_n": 74870,
+   "valid_n": 146651
+  },
+  {
+   "year": 2007,
+   "month": 4,
+   "phase": "Neutral",
+   "oni": -0.32,
+   "saddle_frac": 0.5624948075194671,
+   "saddle_n": 74476,
+   "valid_n": 146651
+  },
+  {
+   "year": 2007,
+   "month": 5,
+   "phase": "Neutral",
+   "oni": -0.38,
+   "saddle_frac": 0.5625627818100798,
+   "saddle_n": 74485,
+   "valid_n": 146651
+  },
+  {
+   "year": 2007,
+   "month": 6,
+   "phase": "Neutral",
+   "oni": -0.47,
+   "saddle_frac": 0.5638996095254639,
+   "saddle_n": 74662,
+   "valid_n": 146651
+  },
+  {
+   "year": 2007,
+   "month": 7,
+   "phase": "La Nina",
+   "oni": -0.56,
+   "saddle_frac": 0.5653195169293748,
+   "saddle_n": 74850,
+   "valid_n": 146651
+  },
+  {
+   "year": 2007,
+   "month": 8,
+   "phase": "La Nina",
+   "oni": -0.81,
+   "saddle_frac": 0.564669984819075,
+   "saddle_n": 74764,
+   "valid_n": 146651
+  },
+  {
+   "year": 2007,
+   "month": 9,
+   "phase": "La Nina",
+   "oni": -1.07,
+   "saddle_frac": 0.5657500207699221,
+   "saddle_n": 74907,
+   "valid_n": 146651
+  },
+  {
+   "year": 2007,
+   "month": 10,
+   "phase": "La Nina",
+   "oni": -1.34,
+   "saddle_frac": 0.5647757226044727,
+   "saddle_n": 74778,
+   "valid_n": 146651
+  },
+  {
+   "year": 2007,
+   "month": 11,
+   "phase": "La Nina",
+   "oni": -1.5,
+   "saddle_frac": 0.5636805812557117,
+   "saddle_n": 74633,
+   "valid_n": 146651
+  },
+  {
+   "year": 2007,
+   "month": 12,
+   "phase": "La Nina",
+   "oni": -1.6,
+   "saddle_frac": 0.5656065194897396,
+   "saddle_n": 74888,
+   "valid_n": 146651
+  },
+  {
+   "year": 2008,
+   "month": 1,
+   "phase": "La Nina",
+   "oni": -1.64,
+   "saddle_frac": 0.5654554655106002,
+   "saddle_n": 74868,
+   "valid_n": 146651
+  },
+  {
+   "year": 2008,
+   "month": 2,
+   "phase": "La Nina",
+   "oni": -1.52,
+   "saddle_frac": 0.564405640355581,
+   "saddle_n": 74729,
+   "valid_n": 146651
+  },
+  {
+   "year": 2008,
+   "month": 3,
+   "phase": "La Nina",
+   "oni": -1.29,
+   "saddle_frac": 0.5639600311171197,
+   "saddle_n": 74670,
+   "valid_n": 146651
+  },
+  {
+   "year": 2008,
+   "month": 4,
+   "phase": "La Nina",
+   "oni": -1.01,
+   "saddle_frac": 0.5637561082452814,
+   "saddle_n": 74643,
+   "valid_n": 146651
+  },
+  {
+   "year": 2008,
+   "month": 5,
+   "phase": "La Nina",
+   "oni": -0.84,
+   "saddle_frac": 0.5621775941632743,
+   "saddle_n": 74434,
+   "valid_n": 146651
+  },
+  {
+   "year": 2008,
+   "month": 6,
+   "phase": "La Nina",
+   "oni": -0.61,
+   "saddle_frac": 0.564156401290001,
+   "saddle_n": 74696,
+   "valid_n": 146651
+  },
+  {
+   "year": 2008,
+   "month": 7,
+   "phase": "Neutral",
+   "oni": -0.37,
+   "saddle_frac": 0.5644660619472368,
+   "saddle_n": 74737,
+   "valid_n": 146651
+  },
+  {
+   "year": 2008,
+   "month": 8,
+   "phase": "Neutral",
+   "oni": -0.23,
+   "saddle_frac": 0.5651684629502353,
+   "saddle_n": 74830,
+   "valid_n": 146651
+  },
+  {
+   "year": 2008,
+   "month": 9,
+   "phase": "Neutral",
+   "oni": -0.24,
+   "saddle_frac": 0.5647983807013436,
+   "saddle_n": 74781,
+   "valid_n": 146651
+  },
+  {
+   "year": 2008,
+   "month": 10,
+   "phase": "Neutral",
+   "oni": -0.35,
+   "saddle_frac": 0.5647832753034296,
+   "saddle_n": 74779,
+   "valid_n": 146651
+  },
+  {
+   "year": 2008,
+   "month": 11,
+   "phase": "La Nina",
+   "oni": -0.55,
+   "saddle_frac": 0.5639449257192057,
+   "saddle_n": 74668,
+   "valid_n": 146651
+  },
+  {
+   "year": 2008,
+   "month": 12,
+   "phase": "La Nina",
+   "oni": -0.73,
+   "saddle_frac": 0.5631821031245515,
+   "saddle_n": 74567,
+   "valid_n": 146651
+  },
+  {
+   "year": 2009,
+   "month": 1,
+   "phase": "La Nina",
+   "oni": -0.85,
+   "saddle_frac": 0.5650174089710959,
+   "saddle_n": 74810,
+   "valid_n": 146651
+  },
+  {
+   "year": 2009,
+   "month": 2,
+   "phase": "La Nina",
+   "oni": -0.79,
+   "saddle_frac": 0.5679176453705732,
+   "saddle_n": 75194,
+   "valid_n": 146651
+  },
+  {
+   "year": 2009,
+   "month": 3,
+   "phase": "La Nina",
+   "oni": -0.61,
+   "saddle_frac": 0.5643225606670543,
+   "saddle_n": 74718,
+   "valid_n": 146651
+  },
+  {
+   "year": 2009,
+   "month": 4,
+   "phase": "Neutral",
+   "oni": -0.33,
+   "saddle_frac": 0.5631141288339389,
+   "saddle_n": 74558,
+   "valid_n": 146651
+  },
+  {
+   "year": 2009,
+   "month": 5,
+   "phase": "Neutral",
+   "oni": 0.01,
+   "saddle_frac": 0.5631367869308097,
+   "saddle_n": 74561,
+   "valid_n": 146651
+  },
+  {
+   "year": 2009,
+   "month": 6,
+   "phase": "Neutral",
+   "oni": 0.28,
+   "saddle_frac": 0.5654101493168584,
+   "saddle_n": 74862,
+   "valid_n": 146651
+  },
+  {
+   "year": 2009,
+   "month": 7,
+   "phase": "Neutral",
+   "oni": 0.45,
+   "saddle_frac": 0.5635597380724001,
+   "saddle_n": 74617,
+   "valid_n": 146651
+  },
+  {
+   "year": 2009,
+   "month": 8,
+   "phase": "El Nino",
+   "oni": 0.58,
+   "saddle_frac": 0.5639977946119046,
+   "saddle_n": 74675,
+   "valid_n": 146651
+  },
+  {
+   "year": 2009,
+   "month": 9,
+   "phase": "El Nino",
+   "oni": 0.71,
+   "saddle_frac": 0.5634917637817874,
+   "saddle_n": 74608,
+   "valid_n": 146651
+  },
+  {
+   "year": 2009,
+   "month": 10,
+   "phase": "El Nino",
+   "oni": 1.01,
+   "saddle_frac": 0.5649947508742249,
+   "saddle_n": 74807,
+   "valid_n": 146651
+  },
+  {
+   "year": 2009,
+   "month": 11,
+   "phase": "El Nino",
+   "oni": 1.36,
+   "saddle_frac": 0.5646095632274193,
+   "saddle_n": 74756,
+   "valid_n": 146651
+  },
+  {
+   "year": 2009,
+   "month": 12,
+   "phase": "El Nino",
+   "oni": 1.56,
+   "saddle_frac": 0.5641035323973022,
+   "saddle_n": 74689,
+   "valid_n": 146651
+  },
+  {
+   "year": 2010,
+   "month": 1,
+   "phase": "El Nino",
+   "oni": 1.5,
+   "saddle_frac": 0.5652968588325038,
+   "saddle_n": 74847,
+   "valid_n": 146651
+  },
+  {
+   "year": 2010,
+   "month": 2,
+   "phase": "El Nino",
+   "oni": 1.22,
+   "saddle_frac": 0.5648890130888273,
+   "saddle_n": 74793,
+   "valid_n": 146651
+  },
+  {
+   "year": 2010,
+   "month": 3,
+   "phase": "El Nino",
+   "oni": 0.84,
+   "saddle_frac": 0.5653723858220735,
+   "saddle_n": 74857,
+   "valid_n": 146651
+  },
+  {
+   "year": 2010,
+   "month": 4,
+   "phase": "Neutral",
+   "oni": 0.35,
+   "saddle_frac": 0.5649720927773539,
+   "saddle_n": 74804,
+   "valid_n": 146651
+  },
+  {
+   "year": 2010,
+   "month": 5,
+   "phase": "Neutral",
+   "oni": -0.17,
+   "saddle_frac": 0.56495698737944,
+   "saddle_n": 74802,
+   "valid_n": 146651
+  },
+  {
+   "year": 2010,
+   "month": 6,
+   "phase": "La Nina",
+   "oni": -0.66,
+   "saddle_frac": 0.5648210387982145,
+   "saddle_n": 74784,
+   "valid_n": 146651
+  },
+  {
+   "year": 2010,
+   "month": 7,
+   "phase": "La Nina",
+   "oni": -1.05,
+   "saddle_frac": 0.568778653051668,
+   "saddle_n": 75308,
+   "valid_n": 146651
+  },
+  {
+   "year": 2010,
+   "month": 8,
+   "phase": "La Nina",
+   "oni": -1.35,
+   "saddle_frac": 0.5655536505970409,
+   "saddle_n": 74881,
+   "valid_n": 146651
+  },
+  {
+   "year": 2010,
+   "month": 9,
+   "phase": "La Nina",
+   "oni": -1.56,
+   "saddle_frac": 0.5640506635046034,
+   "saddle_n": 74682,
+   "valid_n": 146651
+  },
+  {
+   "year": 2010,
+   "month": 10,
+   "phase": "La Nina",
+   "oni": -1.64,
+   "saddle_frac": 0.5651911210471062,
+   "saddle_n": 74833,
+   "valid_n": 146651
+  },
+  {
+   "year": 2010,
+   "month": 11,
+   "phase": "La Nina",
+   "oni": -1.64,
+   "saddle_frac": 0.5629177586610575,
+   "saddle_n": 74532,
+   "valid_n": 146651
+  },
+  {
+   "year": 2010,
+   "month": 12,
+   "phase": "La Nina",
+   "oni": -1.54,
+   "saddle_frac": 0.5629177586610575,
+   "saddle_n": 74532,
+   "valid_n": 146651
+  },
+  {
+   "year": 2011,
+   "month": 1,
+   "phase": "La Nina",
+   "oni": -1.31,
+   "saddle_frac": 0.5619510131945651,
+   "saddle_n": 74404,
+   "valid_n": 146651
+  },
+  {
+   "year": 2011,
+   "month": 2,
+   "phase": "La Nina",
+   "oni": -1.04,
+   "saddle_frac": 0.5655536505970409,
+   "saddle_n": 74881,
+   "valid_n": 146651
+  },
+  {
+   "year": 2011,
+   "month": 3,
+   "phase": "La Nina",
+   "oni": -0.8,
+   "saddle_frac": 0.5629328640589715,
+   "saddle_n": 74534,
+   "valid_n": 146651
+  },
+  {
+   "year": 2011,
+   "month": 4,
+   "phase": "La Nina",
+   "oni": -0.62,
+   "saddle_frac": 0.5639222676223349,
+   "saddle_n": 74665,
+   "valid_n": 146651
+  },
+  {
+   "year": 2011,
+   "month": 5,
+   "phase": "Neutral",
+   "oni": -0.46,
+   "saddle_frac": 0.5616186944404583,
+   "saddle_n": 74360,
+   "valid_n": 146651
+  },
+  {
+   "year": 2011,
+   "month": 6,
+   "phase": "Neutral",
+   "oni": -0.37,
+   "saddle_frac": 0.5626987303913054,
+   "saddle_n": 74503,
+   "valid_n": 146651
+  },
+  {
+   "year": 2011,
+   "month": 7,
+   "phase": "Neutral",
+   "oni": -0.43,
+   "saddle_frac": 0.563605054266142,
+   "saddle_n": 74623,
+   "valid_n": 146651
+  },
+  {
+   "year": 2011,
+   "month": 8,
+   "phase": "La Nina",
+   "oni": -0.58,
+   "saddle_frac": 0.561966118592479,
+   "saddle_n": 74406,
+   "valid_n": 146651
+  },
+  {
+   "year": 2011,
+   "month": 9,
+   "phase": "La Nina",
+   "oni": -0.79,
+   "saddle_frac": 0.5646624321201181,
+   "saddle_n": 74763,
+   "valid_n": 146651
+  },
+  {
+   "year": 2011,
+   "month": 10,
+   "phase": "La Nina",
+   "oni": -0.96,
+   "saddle_frac": 0.5646322213242903,
+   "saddle_n": 74759,
+   "valid_n": 146651
+  },
+  {
+   "year": 2011,
+   "month": 11,
+   "phase": "La Nina",
+   "oni": -1.02,
+   "saddle_frac": 0.5626458614986065,
+   "saddle_n": 74496,
+   "valid_n": 146651
+  },
+  {
+   "year": 2011,
+   "month": 12,
+   "phase": "La Nina",
+   "oni": -0.92,
+   "saddle_frac": 0.5647379591096878,
+   "saddle_n": 74773,
+   "valid_n": 146651
+  },
+  {
+   "year": 2012,
+   "month": 1,
+   "phase": "La Nina",
+   "oni": -0.72,
+   "saddle_frac": 0.5649947508742249,
+   "saddle_n": 74807,
+   "valid_n": 146651
+  },
+  {
+   "year": 2012,
+   "month": 2,
+   "phase": "La Nina",
+   "oni": -0.57,
+   "saddle_frac": 0.5655460978980839,
+   "saddle_n": 74880,
+   "valid_n": 146651
+  },
+  {
+   "year": 2012,
+   "month": 3,
+   "phase": "Neutral",
+   "oni": -0.46,
+   "saddle_frac": 0.5648134860992575,
+   "saddle_n": 74783,
+   "valid_n": 146651
+  },
+  {
+   "year": 2012,
+   "month": 4,
+   "phase": "Neutral",
+   "oni": -0.36,
+   "saddle_frac": 0.5661956300083835,
+   "saddle_n": 74966,
+   "valid_n": 146651
+  },
+  {
+   "year": 2012,
+   "month": 5,
+   "phase": "Neutral",
+   "oni": -0.17,
+   "saddle_frac": 0.5650702778637946,
+   "saddle_n": 74817,
+   "valid_n": 146651
+  },
+  {
+   "year": 2012,
+   "month": 6,
+   "phase": "Neutral",
+   "oni": 0.06,
+   "saddle_frac": 0.5654630182095571,
+   "saddle_n": 74869,
+   "valid_n": 146651
+  },
+  {
+   "year": 2012,
+   "month": 7,
+   "phase": "Neutral",
+   "oni": 0.3,
+   "saddle_frac": 0.5632500774151643,
+   "saddle_n": 74576,
+   "valid_n": 146651
+  },
+  {
+   "year": 2012,
+   "month": 8,
+   "phase": "Neutral",
+   "oni": 0.41,
+   "saddle_frac": 0.5651533575523213,
+   "saddle_n": 74828,
+   "valid_n": 146651
+  },
+  {
+   "year": 2012,
+   "month": 9,
+   "phase": "Neutral",
+   "oni": 0.41,
+   "saddle_frac": 0.5662787096969102,
+   "saddle_n": 74977,
+   "valid_n": 146651
+  },
+  {
+   "year": 2012,
+   "month": 10,
+   "phase": "Neutral",
+   "oni": 0.31,
+   "saddle_frac": 0.5651684629502353,
+   "saddle_n": 74830,
+   "valid_n": 146651
+  },
+  {
+   "year": 2012,
+   "month": 11,
+   "phase": "Neutral",
+   "oni": 0.13,
+   "saddle_frac": 0.5617924065164687,
+   "saddle_n": 74383,
+   "valid_n": 146651
+  },
+  {
+   "year": 2012,
+   "month": 12,
+   "phase": "Neutral",
+   "oni": -0.1,
+   "saddle_frac": 0.5624117278309404,
+   "saddle_n": 74465,
+   "valid_n": 146651
+  },
+  {
+   "year": 2013,
+   "month": 1,
+   "phase": "Neutral",
+   "oni": -0.29,
+   "saddle_frac": 0.5628271262735739,
+   "saddle_n": 74520,
+   "valid_n": 146651
+  },
+  {
+   "year": 2013,
+   "month": 2,
+   "phase": "Neutral",
+   "oni": -0.29,
+   "saddle_frac": 0.565236437240848,
+   "saddle_n": 74839,
+   "valid_n": 146651
+  },
+  {
+   "year": 2013,
+   "month": 3,
+   "phase": "Neutral",
+   "oni": -0.21,
+   "saddle_frac": 0.5643603241618392,
+   "saddle_n": 74723,
+   "valid_n": 146651
+  },
+  {
+   "year": 2013,
+   "month": 4,
+   "phase": "Neutral",
+   "oni": -0.19,
+   "saddle_frac": 0.5642017174837428,
+   "saddle_n": 74702,
+   "valid_n": 146651
+  },
+  {
+   "year": 2013,
+   "month": 5,
+   "phase": "Neutral",
+   "oni": -0.27,
+   "saddle_frac": 0.5634086840932607,
+   "saddle_n": 74597,
+   "valid_n": 146651
+  },
+  {
+   "year": 2013,
+   "month": 6,
+   "phase": "Neutral",
+   "oni": -0.34,
+   "saddle_frac": 0.5629479694568854,
+   "saddle_n": 74536,
+   "valid_n": 146651
+  },
+  {
+   "year": 2013,
+   "month": 7,
+   "phase": "Neutral",
+   "oni": -0.35,
+   "saddle_frac": 0.563605054266142,
+   "saddle_n": 74623,
+   "valid_n": 146651
+  },
+  {
+   "year": 2013,
+   "month": 8,
+   "phase": "Neutral",
+   "oni": -0.28,
+   "saddle_frac": 0.5676306428102083,
+   "saddle_n": 75156,
+   "valid_n": 146651
+  },
+  {
+   "year": 2013,
+   "month": 9,
+   "phase": "Neutral",
+   "oni": -0.21,
+   "saddle_frac": 0.561429876966534,
+   "saddle_n": 74335,
+   "valid_n": 146651
+  },
+  {
+   "year": 2013,
+   "month": 10,
+   "phase": "Neutral",
+   "oni": -0.13,
+   "saddle_frac": 0.5640884269993882,
+   "saddle_n": 74687,
+   "valid_n": 146651
+  },
+  {
+   "year": 2013,
+   "month": 11,
+   "phase": "Neutral",
+   "oni": -0.1,
+   "saddle_frac": 0.5661956300083835,
+   "saddle_n": 74966,
+   "valid_n": 146651
+  },
+  {
+   "year": 2013,
+   "month": 12,
+   "phase": "Neutral",
+   "oni": -0.15,
+   "saddle_frac": 0.5664901852677054,
+   "saddle_n": 75005,
+   "valid_n": 146651
+  },
+  {
+   "year": 2014,
+   "month": 1,
+   "phase": "Neutral",
+   "oni": -0.28,
+   "saddle_frac": 0.563605054266142,
+   "saddle_n": 74623,
+   "valid_n": 146651
+  },
+  {
+   "year": 2014,
+   "month": 2,
+   "phase": "Neutral",
+   "oni": -0.32,
+   "saddle_frac": 0.5652968588325038,
+   "saddle_n": 74847,
+   "valid_n": 146651
+  },
+  {
+   "year": 2014,
+   "month": 3,
+   "phase": "Neutral",
+   "oni": -0.14,
+   "saddle_frac": 0.56470774831386,
+   "saddle_n": 74769,
+   "valid_n": 146651
+  },
+  {
+   "year": 2014,
+   "month": 4,
+   "phase": "Neutral",
+   "oni": 0.15,
+   "saddle_frac": 0.5657122572751373,
+   "saddle_n": 74902,
+   "valid_n": 146651
+  },
+  {
+   "year": 2014,
+   "month": 5,
+   "phase": "Neutral",
+   "oni": 0.31,
+   "saddle_frac": 0.5647983807013436,
+   "saddle_n": 74781,
+   "valid_n": 146651
+  },
+  {
+   "year": 2014,
+   "month": 6,
+   "phase": "Neutral",
+   "oni": 0.23,
+   "saddle_frac": 0.5626232034017357,
+   "saddle_n": 74493,
+   "valid_n": 146651
+  },
+  {
+   "year": 2014,
+   "month": 7,
+   "phase": "Neutral",
+   "oni": 0.1,
+   "saddle_frac": 0.5636428177609268,
+   "saddle_n": 74628,
+   "valid_n": 146651
+  },
+  {
+   "year": 2014,
+   "month": 8,
+   "phase": "Neutral",
+   "oni": 0.11,
+   "saddle_frac": 0.565810442361578,
+   "saddle_n": 74915,
+   "valid_n": 146651
+  },
+  {
+   "year": 2014,
+   "month": 9,
+   "phase": "Neutral",
+   "oni": 0.28,
+   "saddle_frac": 0.5647983807013436,
+   "saddle_n": 74781,
+   "valid_n": 146651
+  },
+  {
+   "year": 2014,
+   "month": 10,
+   "phase": "El Nino",
+   "oni": 0.54,
+   "saddle_frac": 0.5646775375180321,
+   "saddle_n": 74765,
+   "valid_n": 146651
+  },
+  {
+   "year": 2014,
+   "month": 11,
+   "phase": "El Nino",
+   "oni": 0.71,
+   "saddle_frac": 0.5625703345090368,
+   "saddle_n": 74486,
+   "valid_n": 146651
+  },
+  {
+   "year": 2014,
+   "month": 12,
+   "phase": "El Nino",
+   "oni": 0.77,
+   "saddle_frac": 0.563348262501605,
+   "saddle_n": 74589,
+   "valid_n": 146651
+  },
+  {
+   "year": 2015,
+   "month": 1,
+   "phase": "El Nino",
+   "oni": 0.69,
+   "saddle_frac": 0.565515887102256,
+   "saddle_n": 74876,
+   "valid_n": 146651
+  },
+  {
+   "year": 2015,
+   "month": 2,
+   "phase": "El Nino",
+   "oni": 0.61,
+   "saddle_frac": 0.5665506068593612,
+   "saddle_n": 75013,
+   "valid_n": 146651
+  },
+  {
+   "year": 2015,
+   "month": 3,
+   "phase": "El Nino",
+   "oni": 0.65,
+   "saddle_frac": 0.5637863190411093,
+   "saddle_n": 74647,
+   "valid_n": 146651
+  },
+  {
+   "year": 2015,
+   "month": 4,
+   "phase": "El Nino",
+   "oni": 0.81,
+   "saddle_frac": 0.564964540078397,
+   "saddle_n": 74803,
+   "valid_n": 146651
+  },
+  {
+   "year": 2015,
+   "month": 5,
+   "phase": "El Nino",
+   "oni": 1.02,
+   "saddle_frac": 0.5633860259963898,
+   "saddle_n": 74594,
+   "valid_n": 146651
+  },
+  {
+   "year": 2015,
+   "month": 6,
+   "phase": "El Nino",
+   "oni": 1.25,
+   "saddle_frac": 0.5638542933317221,
+   "saddle_n": 74656,
+   "valid_n": 146651
+  },
+  {
+   "year": 2015,
+   "month": 7,
+   "phase": "El Nino",
+   "oni": 1.57,
+   "saddle_frac": 0.5639373730202488,
+   "saddle_n": 74667,
+   "valid_n": 146651
+  },
+  {
+   "year": 2015,
+   "month": 8,
+   "phase": "El Nino",
+   "oni": 1.91,
+   "saddle_frac": 0.5631745504255946,
+   "saddle_n": 74566,
+   "valid_n": 146651
+  },
+  {
+   "year": 2015,
+   "month": 9,
+   "phase": "El Nino",
+   "oni": 2.21,
+   "saddle_frac": 0.5641941647847858,
+   "saddle_n": 74701,
+   "valid_n": 146651
+  },
+  {
+   "year": 2015,
+   "month": 10,
+   "phase": "El Nino",
+   "oni": 2.47,
+   "saddle_frac": 0.5620491982810057,
+   "saddle_n": 74417,
+   "valid_n": 146651
+  },
+  {
+   "year": 2015,
+   "month": 11,
+   "phase": "El Nino",
+   "oni": 2.64,
+   "saddle_frac": 0.5619132496997802,
+   "saddle_n": 74399,
+   "valid_n": 146651
+  },
+  {
+   "year": 2015,
+   "month": 12,
+   "phase": "El Nino",
+   "oni": 2.75,
+   "saddle_frac": 0.5647681699055157,
+   "saddle_n": 74777,
+   "valid_n": 146651
+  },
+  {
+   "year": 2016,
+   "month": 1,
+   "phase": "El Nino",
+   "oni": 2.63,
+   "saddle_frac": 0.5637712136431954,
+   "saddle_n": 74645,
+   "valid_n": 146651
+  },
+  {
+   "year": 2016,
+   "month": 2,
+   "phase": "El Nino",
+   "oni": 2.28,
+   "saddle_frac": 0.5647530645076018,
+   "saddle_n": 74775,
+   "valid_n": 146651
+  },
+  {
+   "year": 2016,
+   "month": 3,
+   "phase": "El Nino",
+   "oni": 1.71,
+   "saddle_frac": 0.5644585092482799,
+   "saddle_n": 74736,
+   "valid_n": 146651
+  },
+  {
+   "year": 2016,
+   "month": 4,
+   "phase": "El Nino",
+   "oni": 1.05,
+   "saddle_frac": 0.5646397740232472,
+   "saddle_n": 74760,
+   "valid_n": 146651
+  },
+  {
+   "year": 2016,
+   "month": 5,
+   "phase": "Neutral",
+   "oni": 0.49,
+   "saddle_frac": 0.5623815170351125,
+   "saddle_n": 74461,
+   "valid_n": 146651
+  },
+  {
+   "year": 2016,
+   "month": 6,
+   "phase": "Neutral",
+   "oni": 0.0,
+   "saddle_frac": 0.5658557585553198,
+   "saddle_n": 74921,
+   "valid_n": 146651
+  },
+  {
+   "year": 2016,
+   "month": 7,
+   "phase": "Neutral",
+   "oni": -0.31,
+   "saddle_frac": 0.5642696917743556,
+   "saddle_n": 74711,
+   "valid_n": 146651
+  },
+  {
+   "year": 2016,
+   "month": 8,
+   "phase": "La Nina",
+   "oni": -0.5,
+   "saddle_frac": 0.5652213318429341,
+   "saddle_n": 74837,
+   "valid_n": 146651
+  },
+  {
+   "year": 2016,
+   "month": 9,
+   "phase": "La Nina",
+   "oni": -0.58,
+   "saddle_frac": 0.5626534141975635,
+   "saddle_n": 74497,
+   "valid_n": 146651
+  },
+  {
+   "year": 2016,
+   "month": 10,
+   "phase": "La Nina",
+   "oni": -0.64,
+   "saddle_frac": 0.5642696917743556,
+   "saddle_n": 74711,
+   "valid_n": 146651
+  },
+  {
+   "year": 2016,
+   "month": 11,
+   "phase": "La Nina",
+   "oni": -0.6,
+   "saddle_frac": 0.564420745753495,
+   "saddle_n": 74731,
+   "valid_n": 146651
+  },
+  {
+   "year": 2016,
+   "month": 12,
+   "phase": "Neutral",
+   "oni": -0.45,
+   "saddle_frac": 0.5643225606670543,
+   "saddle_n": 74718,
+   "valid_n": 146651
+  },
+  {
+   "year": 2017,
+   "month": 1,
+   "phase": "Neutral",
+   "oni": -0.19,
+   "saddle_frac": 0.5659841544375883,
+   "saddle_n": 74938,
+   "valid_n": 146651
+  },
+  {
+   "year": 2017,
+   "month": 2,
+   "phase": "Neutral",
+   "oni": -0.02,
+   "saddle_frac": 0.5640657689025174,
+   "saddle_n": 74684,
+   "valid_n": 146651
+  },
+  {
+   "year": 2017,
+   "month": 3,
+   "phase": "Neutral",
+   "oni": 0.18,
+   "saddle_frac": 0.5640129000098185,
+   "saddle_n": 74677,
+   "valid_n": 146651
+  },
+  {
+   "year": 2017,
+   "month": 4,
+   "phase": "Neutral",
+   "oni": 0.31,
+   "saddle_frac": 0.5642319282795707,
+   "saddle_n": 74706,
+   "valid_n": 146651
+  },
+  {
+   "year": 2017,
+   "month": 5,
+   "phase": "Neutral",
+   "oni": 0.4,
+   "saddle_frac": 0.5617621957206408,
+   "saddle_n": 74379,
+   "valid_n": 146651
+  },
+  {
+   "year": 2017,
+   "month": 6,
+   "phase": "Neutral",
+   "oni": 0.39,
+   "saddle_frac": 0.5628195735746169,
+   "saddle_n": 74519,
+   "valid_n": 146651
+  },
+  {
+   "year": 2017,
+   "month": 7,
+   "phase": "Neutral",
+   "oni": 0.19,
+   "saddle_frac": 0.5648588022929995,
+   "saddle_n": 74789,
+   "valid_n": 146651
+  },
+  {
+   "year": 2017,
+   "month": 8,
+   "phase": "Neutral",
+   "oni": -0.07,
+   "saddle_frac": 0.5659237328459324,
+   "saddle_n": 74930,
+   "valid_n": 146651
+  },
+  {
+   "year": 2017,
+   "month": 9,
+   "phase": "Neutral",
+   "oni": -0.34,
+   "saddle_frac": 0.5631821031245515,
+   "saddle_n": 74567,
+   "valid_n": 146651
+  },
+  {
+   "year": 2017,
+   "month": 10,
+   "phase": "La Nina",
+   "oni": -0.6,
+   "saddle_frac": 0.5652968588325038,
+   "saddle_n": 74847,
+   "valid_n": 146651
+  },
+  {
+   "year": 2017,
+   "month": 11,
+   "phase": "La Nina",
+   "oni": -0.77,
+   "saddle_frac": 0.565772678866793,
+   "saddle_n": 74910,
+   "valid_n": 146651
+  },
+  {
+   "year": 2017,
+   "month": 12,
+   "phase": "La Nina",
+   "oni": -0.86,
+   "saddle_frac": 0.5654705709085142,
+   "saddle_n": 74870,
+   "valid_n": 146651
+  },
+  {
+   "year": 2018,
+   "month": 1,
+   "phase": "La Nina",
+   "oni": -0.77,
+   "saddle_frac": 0.5654781236074712,
+   "saddle_n": 74871,
+   "valid_n": 146651
+  },
+  {
+   "year": 2018,
+   "month": 2,
+   "phase": "La Nina",
+   "oni": -0.71,
+   "saddle_frac": 0.5662938150948241,
+   "saddle_n": 74979,
+   "valid_n": 146651
+  },
+  {
+   "year": 2018,
+   "month": 3,
+   "phase": "La Nina",
+   "oni": -0.57,
+   "saddle_frac": 0.566037023330287,
+   "saddle_n": 74945,
+   "valid_n": 146651
+  },
+  {
+   "year": 2018,
+   "month": 4,
+   "phase": "Neutral",
+   "oni": -0.39,
+   "saddle_frac": 0.5660974449219428,
+   "saddle_n": 74953,
+   "valid_n": 146651
+  },
+  {
+   "year": 2018,
+   "month": 5,
+   "phase": "Neutral",
+   "oni": -0.13,
+   "saddle_frac": 0.5642168228816568,
+   "saddle_n": 74704,
+   "valid_n": 146651
+  },
+  {
+   "year": 2018,
+   "month": 6,
+   "phase": "Neutral",
+   "oni": 0.06,
+   "saddle_frac": 0.5629555221558424,
+   "saddle_n": 74537,
+   "valid_n": 146651
+  },
+  {
+   "year": 2018,
+   "month": 7,
+   "phase": "Neutral",
+   "oni": 0.14,
+   "saddle_frac": 0.5662711569979533,
+   "saddle_n": 74976,
+   "valid_n": 146651
+  },
+  {
+   "year": 2018,
+   "month": 8,
+   "phase": "Neutral",
+   "oni": 0.27,
+   "saddle_frac": 0.5633784732974328,
+   "saddle_n": 74593,
+   "valid_n": 146651
+  },
+  {
+   "year": 2018,
+   "month": 9,
+   "phase": "El Nino",
+   "oni": 0.53,
+   "saddle_frac": 0.5655763086939117,
+   "saddle_n": 74884,
+   "valid_n": 146651
+  },
+  {
+   "year": 2018,
+   "month": 10,
+   "phase": "El Nino",
+   "oni": 0.81,
+   "saddle_frac": 0.5656367302855676,
+   "saddle_n": 74892,
+   "valid_n": 146651
+  },
+  {
+   "year": 2018,
+   "month": 11,
+   "phase": "El Nino",
+   "oni": 0.97,
+   "saddle_frac": 0.5621549360664033,
+   "saddle_n": 74431,
+   "valid_n": 146651
+  },
+  {
+   "year": 2018,
+   "month": 12,
+   "phase": "El Nino",
+   "oni": 0.92,
+   "saddle_frac": 0.5624872548205101,
+   "saddle_n": 74475,
+   "valid_n": 146651
+  },
+  {
+   "year": 2019,
+   "month": 1,
+   "phase": "El Nino",
+   "oni": 0.89,
+   "saddle_frac": 0.5656442829845245,
+   "saddle_n": 74893,
+   "valid_n": 146651
+  },
+  {
+   "year": 2019,
+   "month": 2,
+   "phase": "El Nino",
+   "oni": 0.86,
+   "saddle_frac": 0.5654403601126863,
+   "saddle_n": 74866,
+   "valid_n": 146651
+  },
+  {
+   "year": 2019,
+   "month": 3,
+   "phase": "El Nino",
+   "oni": 0.84,
+   "saddle_frac": 0.5633935786953468,
+   "saddle_n": 74595,
+   "valid_n": 146651
+  },
+  {
+   "year": 2019,
+   "month": 4,
+   "phase": "El Nino",
+   "oni": 0.77,
+   "saddle_frac": 0.5629102059621005,
+   "saddle_n": 74531,
+   "valid_n": 146651
+  },
+  {
+   "year": 2019,
+   "month": 5,
+   "phase": "El Nino",
+   "oni": 0.64,
+   "saddle_frac": 0.5632047612214225,
+   "saddle_n": 74570,
+   "valid_n": 146651
+  },
+  {
+   "year": 2019,
+   "month": 6,
+   "phase": "El Nino",
+   "oni": 0.52,
+   "saddle_frac": 0.5659161801469755,
+   "saddle_n": 74929,
+   "valid_n": 146651
+  },
+  {
+   "year": 2019,
+   "month": 7,
+   "phase": "Neutral",
+   "oni": 0.33,
+   "saddle_frac": 0.5638467406327651,
+   "saddle_n": 74655,
+   "valid_n": 146651
+  },
+  {
+   "year": 2019,
+   "month": 8,
+   "phase": "Neutral",
+   "oni": 0.19,
+   "saddle_frac": 0.5660974449219428,
+   "saddle_n": 74953,
+   "valid_n": 146651
+  },
+  {
+   "year": 2019,
+   "month": 9,
+   "phase": "Neutral",
+   "oni": 0.23,
+   "saddle_frac": 0.5653497277252026,
+   "saddle_n": 74854,
+   "valid_n": 146651
+  },
+  {
+   "year": 2019,
+   "month": 10,
+   "phase": "Neutral",
+   "oni": 0.39,
+   "saddle_frac": 0.5642847971722695,
+   "saddle_n": 74713,
+   "valid_n": 146651
+  },
+  {
+   "year": 2019,
+   "month": 11,
+   "phase": "El Nino",
+   "oni": 0.58,
+   "saddle_frac": 0.5659010747490616,
+   "saddle_n": 74927,
+   "valid_n": 146651
+  },
+  {
+   "year": 2019,
+   "month": 12,
+   "phase": "El Nino",
+   "oni": 0.66,
+   "saddle_frac": 0.5657349153720082,
+   "saddle_n": 74905,
+   "valid_n": 146651
+  },
+  {
+   "year": 2020,
+   "month": 1,
+   "phase": "El Nino",
+   "oni": 0.64,
+   "saddle_frac": 0.5663768947833508,
+   "saddle_n": 74990,
+   "valid_n": 146651
+  },
+  {
+   "year": 2020,
+   "month": 2,
+   "phase": "El Nino",
+   "oni": 0.63,
+   "saddle_frac": 0.5662333935031684,
+   "saddle_n": 74971,
+   "valid_n": 146651
+  },
+  {
+   "year": 2020,
+   "month": 3,
+   "phase": "El Nino",
+   "oni": 0.53,
+   "saddle_frac": 0.563612606965099,
+   "saddle_n": 74624,
+   "valid_n": 146651
+  },
+  {
+   "year": 2020,
+   "month": 4,
+   "phase": "Neutral",
+   "oni": 0.3,
+   "saddle_frac": 0.5631292342318528,
+   "saddle_n": 74560,
+   "valid_n": 146651
+  },
+  {
+   "year": 2020,
+   "month": 5,
+   "phase": "Neutral",
+   "oni": 0.01,
+   "saddle_frac": 0.5638165298369372,
+   "saddle_n": 74651,
+   "valid_n": 146651
+  },
+  {
+   "year": 2020,
+   "month": 6,
+   "phase": "Neutral",
+   "oni": -0.23,
+   "saddle_frac": 0.56660347575206,
+   "saddle_n": 75020,
+   "valid_n": 146651
+  },
+  {
+   "year": 2020,
+   "month": 7,
+   "phase": "Neutral",
+   "oni": -0.36,
+   "saddle_frac": 0.5673209821529723,
+   "saddle_n": 75115,
+   "valid_n": 146651
+  },
+  {
+   "year": 2020,
+   "month": 8,
+   "phase": "La Nina",
+   "oni": -0.53,
+   "saddle_frac": 0.5672832186581875,
+   "saddle_n": 75110,
+   "valid_n": 146651
+  },
+  {
+   "year": 2020,
+   "month": 9,
+   "phase": "La Nina",
+   "oni": -0.85,
+   "saddle_frac": 0.566595923053103,
+   "saddle_n": 75019,
+   "valid_n": 146651
+  },
+  {
+   "year": 2020,
+   "month": 10,
+   "phase": "La Nina",
+   "oni": -1.12,
+   "saddle_frac": 0.5637636609442385,
+   "saddle_n": 74644,
+   "valid_n": 146651
+  },
+  {
+   "year": 2020,
+   "month": 11,
+   "phase": "La Nina",
+   "oni": -1.2,
+   "saddle_frac": 0.561973671291436,
+   "saddle_n": 74407,
+   "valid_n": 146651
+  },
+  {
+   "year": 2020,
+   "month": 12,
+   "phase": "La Nina",
+   "oni": -1.08,
+   "saddle_frac": 0.5632198666193364,
+   "saddle_n": 74572,
+   "valid_n": 146651
+  },
+  {
+   "year": 2021,
+   "month": 1,
+   "phase": "La Nina",
+   "oni": -0.91,
+   "saddle_frac": 0.5689750232245493,
+   "saddle_n": 75334,
+   "valid_n": 146651
+  },
+  {
+   "year": 2021,
+   "month": 2,
+   "phase": "La Nina",
+   "oni": -0.79,
+   "saddle_frac": 0.5664297636760497,
+   "saddle_n": 74997,
+   "valid_n": 146651
+  },
+  {
+   "year": 2021,
+   "month": 3,
+   "phase": "La Nina",
+   "oni": -0.71,
+   "saddle_frac": 0.5665203960635333,
+   "saddle_n": 75009,
+   "valid_n": 146651
+  },
+  {
+   "year": 2021,
+   "month": 4,
+   "phase": "La Nina",
+   "oni": -0.55,
+   "saddle_frac": 0.564964540078397,
+   "saddle_n": 74803,
+   "valid_n": 146651
+  },
+  {
+   "year": 2021,
+   "month": 5,
+   "phase": "Neutral",
+   "oni": -0.39,
+   "saddle_frac": 0.5643527714628822,
+   "saddle_n": 74722,
+   "valid_n": 146651
+  },
+  {
+   "year": 2021,
+   "month": 6,
+   "phase": "Neutral",
+   "oni": -0.3,
+   "saddle_frac": 0.5642319282795707,
+   "saddle_n": 74706,
+   "valid_n": 146651
+  },
+  {
+   "year": 2021,
+   "month": 7,
+   "phase": "Neutral",
+   "oni": -0.35,
+   "saddle_frac": 0.563892056826507,
+   "saddle_n": 74661,
+   "valid_n": 146651
+  },
+  {
+   "year": 2021,
+   "month": 8,
+   "phase": "Neutral",
+   "oni": -0.45,
+   "saddle_frac": 0.5642168228816568,
+   "saddle_n": 74704,
+   "valid_n": 146651
+  },
+  {
+   "year": 2021,
+   "month": 9,
+   "phase": "La Nina",
+   "oni": -0.63,
+   "saddle_frac": 0.5663617893854369,
+   "saddle_n": 74988,
+   "valid_n": 146651
+  },
+  {
+   "year": 2021,
+   "month": 10,
+   "phase": "La Nina",
+   "oni": -0.76,
+   "saddle_frac": 0.5674644834331548,
+   "saddle_n": 75134,
+   "valid_n": 146651
+  },
+  {
+   "year": 2021,
+   "month": 11,
+   "phase": "La Nina",
+   "oni": -0.91,
+   "saddle_frac": 0.5626232034017357,
+   "saddle_n": 74493,
+   "valid_n": 146651
+  },
+  {
+   "year": 2021,
+   "month": 12,
+   "phase": "La Nina",
+   "oni": -0.87,
+   "saddle_frac": 0.5662258408042113,
+   "saddle_n": 74970,
+   "valid_n": 146651
+  },
+  {
+   "year": 2022,
+   "month": 1,
+   "phase": "La Nina",
+   "oni": -0.82,
+   "saddle_frac": 0.5653119642304177,
+   "saddle_n": 74849,
+   "valid_n": 146651
+  },
+  {
+   "year": 2022,
+   "month": 2,
+   "phase": "La Nina",
+   "oni": -0.79,
+   "saddle_frac": 0.5640053473108615,
+   "saddle_n": 74676,
+   "valid_n": 146651
+  },
+  {
+   "year": 2022,
+   "month": 3,
+   "phase": "La Nina",
+   "oni": -0.86,
+   "saddle_frac": 0.5649116711856982,
+   "saddle_n": 74796,
+   "valid_n": 146651
+  },
+  {
+   "year": 2022,
+   "month": 4,
+   "phase": "La Nina",
+   "oni": -0.95,
+   "saddle_frac": 0.5644811673451507,
+   "saddle_n": 74739,
+   "valid_n": 146651
+  },
+  {
+   "year": 2022,
+   "month": 5,
+   "phase": "La Nina",
+   "oni": -0.9,
+   "saddle_frac": 0.5654101493168584,
+   "saddle_n": 74862,
+   "valid_n": 146651
+  },
+  {
+   "year": 2022,
+   "month": 6,
+   "phase": "La Nina",
+   "oni": -0.78,
+   "saddle_frac": 0.563076365339154,
+   "saddle_n": 74553,
+   "valid_n": 146651
+  },
+  {
+   "year": 2022,
+   "month": 7,
+   "phase": "La Nina",
+   "oni": -0.76,
+   "saddle_frac": 0.5647530645076018,
+   "saddle_n": 74775,
+   "valid_n": 146651
+  },
+  {
+   "year": 2022,
+   "month": 8,
+   "phase": "La Nina",
+   "oni": -0.87,
+   "saddle_frac": 0.5650325143690098,
+   "saddle_n": 74812,
+   "valid_n": 146651
+  },
+  {
+   "year": 2022,
+   "month": 9,
+   "phase": "La Nina",
+   "oni": -0.97,
+   "saddle_frac": 0.5645642470336775,
+   "saddle_n": 74750,
+   "valid_n": 146651
+  },
+  {
+   "year": 2022,
+   "month": 10,
+   "phase": "La Nina",
+   "oni": -0.94,
+   "saddle_frac": 0.56578023156575,
+   "saddle_n": 74911,
+   "valid_n": 146651
+  },
+  {
+   "year": 2022,
+   "month": 11,
+   "phase": "La Nina",
+   "oni": -0.85,
+   "saddle_frac": 0.5660294706313301,
+   "saddle_n": 74944,
+   "valid_n": 146651
+  },
+  {
+   "year": 2022,
+   "month": 12,
+   "phase": "La Nina",
+   "oni": -0.71,
+   "saddle_frac": 0.5649494346804831,
+   "saddle_n": 74801,
+   "valid_n": 146651
+  },
+  {
+   "year": 2023,
+   "month": 1,
+   "phase": "La Nina",
+   "oni": -0.54,
+   "saddle_frac": 0.5677514859935198,
+   "saddle_n": 75172,
+   "valid_n": 146651
+  },
+  {
+   "year": 2023,
+   "month": 2,
+   "phase": "Neutral",
+   "oni": -0.29,
+   "saddle_frac": 0.5628648897683587,
+   "saddle_n": 74525,
+   "valid_n": 146651
+  },
+  {
+   "year": 2023,
+   "month": 3,
+   "phase": "Neutral",
+   "oni": -0.02,
+   "saddle_frac": 0.5634237894911747,
+   "saddle_n": 74599,
+   "valid_n": 146651
+  },
+  {
+   "year": 2023,
+   "month": 4,
+   "phase": "Neutral",
+   "oni": 0.27,
+   "saddle_frac": 0.5646020105284624,
+   "saddle_n": 74755,
+   "valid_n": 146651
+  },
+  {
+   "year": 2023,
+   "month": 5,
+   "phase": "El Nino",
+   "oni": 0.57,
+   "saddle_frac": 0.5648059334003006,
+   "saddle_n": 74782,
+   "valid_n": 146651
+  },
+  {
+   "year": 2023,
+   "month": 6,
+   "phase": "El Nino",
+   "oni": 0.84,
+   "saddle_frac": 0.5648814603898703,
+   "saddle_n": 74792,
+   "valid_n": 146651
+  },
+  {
+   "year": 2023,
+   "month": 7,
+   "phase": "El Nino",
+   "oni": 1.12,
+   "saddle_frac": 0.5647681699055157,
+   "saddle_n": 74777,
+   "valid_n": 146651
+  },
+  {
+   "year": 2023,
+   "month": 8,
+   "phase": "El Nino",
+   "oni": 1.37,
+   "saddle_frac": 0.5663920001812648,
+   "saddle_n": 74992,
+   "valid_n": 146651
+  },
+  {
+   "year": 2023,
+   "month": 9,
+   "phase": "El Nino",
+   "oni": 1.6,
+   "saddle_frac": 0.5661352084167277,
+   "saddle_n": 74958,
+   "valid_n": 146651
+  },
+  {
+   "year": 2023,
+   "month": 10,
+   "phase": "El Nino",
+   "oni": 1.83,
+   "saddle_frac": 0.5657424680709652,
+   "saddle_n": 74906,
+   "valid_n": 146651
+  },
+  {
+   "year": 2023,
+   "month": 11,
+   "phase": "El Nino",
+   "oni": 1.99,
+   "saddle_frac": 0.5676608536060361,
+   "saddle_n": 75160,
+   "valid_n": 146651
+  },
+  {
+   "year": 2023,
+   "month": 12,
+   "phase": "El Nino",
+   "oni": 2.06,
+   "saddle_frac": 0.5662484989010823,
+   "saddle_n": 74973,
+   "valid_n": 146651
+  },
+  {
+   "year": 2024,
+   "month": 1,
+   "phase": "El Nino",
+   "oni": 1.92,
+   "saddle_frac": 0.5633633678995189,
+   "saddle_n": 74591,
+   "valid_n": 146651
+  },
+  {
+   "year": 2024,
+   "month": 2,
+   "phase": "El Nino",
+   "oni": 1.62,
+   "saddle_frac": 0.5666563446447588,
+   "saddle_n": 75027,
+   "valid_n": 146651
+  },
+  {
+   "year": 2024,
+   "month": 3,
+   "phase": "El Nino",
+   "oni": 1.26,
+   "saddle_frac": 0.566052128728201,
+   "saddle_n": 74947,
+   "valid_n": 146651
+  },
+  {
+   "year": 2024,
+   "month": 4,
+   "phase": "El Nino",
+   "oni": 0.82,
+   "saddle_frac": 0.5642772444733125,
+   "saddle_n": 74712,
+   "valid_n": 146651
+  },
+  {
+   "year": 2024,
+   "month": 5,
+   "phase": "Neutral",
+   "oni": 0.49,
+   "saddle_frac": 0.5649267765836121,
+   "saddle_n": 74798,
+   "valid_n": 146651
+  },
+  {
+   "year": 2024,
+   "month": 6,
+   "phase": "Neutral",
+   "oni": 0.22,
+   "saddle_frac": 0.5624117278309404,
+   "saddle_n": 74465,
+   "valid_n": 146651
+  },
+  {
+   "year": 2024,
+   "month": 7,
+   "phase": "Neutral",
+   "oni": 0.08,
+   "saddle_frac": 0.5658406531574058,
+   "saddle_n": 74919,
+   "valid_n": 146651
+  },
+  {
+   "year": 2024,
+   "month": 8,
+   "phase": "Neutral",
+   "oni": -0.07,
+   "saddle_frac": 0.5652213318429341,
+   "saddle_n": 74837,
+   "valid_n": 146651
+  },
+  {
+   "year": 2024,
+   "month": 9,
+   "phase": "Neutral",
+   "oni": -0.17,
+   "saddle_frac": 0.5647379591096878,
+   "saddle_n": 74773,
+   "valid_n": 146651
+  },
+  {
+   "year": 2024,
+   "month": 10,
+   "phase": "Neutral",
+   "oni": -0.21,
+   "saddle_frac": 0.5662938150948241,
+   "saddle_n": 74979,
+   "valid_n": 146651
+  },
+  {
+   "year": 2024,
+   "month": 11,
+   "phase": "Neutral",
+   "oni": -0.3,
+   "saddle_frac": 0.5647228537117739,
+   "saddle_n": 74771,
+   "valid_n": 146651
+  },
+  {
+   "year": 2024,
+   "month": 12,
+   "phase": "Neutral",
+   "oni": -0.42,
+   "saddle_frac": 0.563597501567185,
+   "saddle_n": 74622,
+   "valid_n": 146651
+  },
+  {
+   "year": 2025,
+   "month": 1,
+   "phase": "Neutral",
+   "oni": -0.45,
+   "saddle_frac": 0.5643678768607963,
+   "saddle_n": 74724,
+   "valid_n": 146651
+  },
+  {
+   "year": 2025,
+   "month": 2,
+   "phase": "Neutral",
+   "oni": -0.24,
+   "saddle_frac": 0.5662409462021253,
+   "saddle_n": 74972,
+   "valid_n": 146651
+  },
+  {
+   "year": 2025,
+   "month": 3,
+   "phase": "Neutral",
+   "oni": -0.06,
+   "saddle_frac": 0.5623588589382416,
+   "saddle_n": 74458,
+   "valid_n": 146651
+  },
+  {
+   "year": 2025,
+   "month": 4,
+   "phase": "Neutral",
+   "oni": 0.02,
+   "saddle_frac": 0.5657198099740942,
+   "saddle_n": 74903,
+   "valid_n": 146651
+  },
+  {
+   "year": 2025,
+   "month": 5,
+   "phase": "Neutral",
+   "oni": -0.02,
+   "saddle_frac": 0.5648436968950855,
+   "saddle_n": 74787,
+   "valid_n": 146651
+  },
+  {
+   "year": 2025,
+   "month": 6,
+   "phase": "Neutral",
+   "oni": -0.04,
+   "saddle_frac": 0.5660294706313301,
+   "saddle_n": 74944,
+   "valid_n": 146651
+  },
+  {
+   "year": 2025,
+   "month": 7,
+   "phase": "Neutral",
+   "oni": -0.14,
+   "saddle_frac": 0.5647983807013436,
+   "saddle_n": 74781,
+   "valid_n": 146651
+  },
+  {
+   "year": 2025,
+   "month": 8,
+   "phase": "Neutral",
+   "oni": -0.28,
+   "saddle_frac": 0.5649418819815261,
+   "saddle_n": 74800,
+   "valid_n": 146651
+  },
+  {
+   "year": 2025,
+   "month": 9,
+   "phase": "Neutral",
+   "oni": -0.4,
+   "saddle_frac": 0.5654781236074712,
+   "saddle_n": 74871,
+   "valid_n": 146651
+  },
+  {
+   "year": 2025,
+   "month": 10,
+   "phase": "La Nina",
+   "oni": -0.51,
+   "saddle_frac": 0.5644131930545381,
+   "saddle_n": 74730,
+   "valid_n": 146651
+  },
+  {
+   "year": 2025,
+   "month": 11,
+   "phase": "La Nina",
+   "oni": -0.55,
+   "saddle_frac": 0.5640280054077325,
+   "saddle_n": 74679,
+   "valid_n": 146651
+  },
+  {
+   "year": 2025,
+   "month": 12,
+   "phase": "La Nina",
+   "oni": -0.54,
+   "saddle_frac": 0.566331578589609,
+   "saddle_n": 74984,
+   "valid_n": 146651
+  }
+ ]
+}

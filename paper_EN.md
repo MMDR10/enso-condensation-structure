@@ -21,7 +21,7 @@ Using 39 years of OISST 0.25° data (1982–2020), we find:
 5. **Topographic anchoring (ETOPO decisive test)**: the strongest memory region sits on the EPR/Galapagos shallow ridge (−2636 m vs −4629 m abyssal plain; roughness/gradient 2.5×); memory intensity × topographic gradient positively correlated (r=+0.038, shuffle null **z=+13.9**), robust after excluding shelf effects (r=+0.040, p=5.6e-49). **Dynamic volcanic activity is excluded (EPR three-line NULL: temporal r<0.15, high/low volcanic months p=0.78/0.87, spatial r=−0.29)** — supporting "static submarine geometry" rather than "volcanic eruption."
 6. **La Niña condenses most strongly (p=0.0011)**: in the cold phase the cold tongue deepens → the front steepens → stronger condensation, complementary to the superficial asymmetry of the three-number formula ("La Niña signal is weak").
 
-Conclusion: the predictable part of ENSO is not the center index but the **condensation structure of marginal frontal systems** — recurring at the same location each year, anchored by fixed submarine topography. This structure provides a measurement window orthogonal to mainstream ENSO prediction.
+Conclusion: the predictable part of ENSO is not the center index but the **condensation structure of marginal frontal systems** — recurring at the same location each year, anchored by fixed submarine topography. A complementary saddle-point (Morse) topology test (2D OISST 528 months + 3D ERA5 + wind-stress-curl interface) finds **no saddle ring** in ENSO (field fraction ≈ 0.564, phase-insensitive KW p = 0.137; fair-control z = −2.0) — saddle rings are vortex-specific — yet saddle points **co-localize with the condensation bands** (saddle density × activity density grid r = 0.42, z = +85; × |curl τ| at the air–sea interface r = 0.24–0.28, z = +141 to +222). This structure provides a measurement window orthogonal to mainstream ENSO prediction.
 
 ---
 
@@ -52,6 +52,7 @@ We apply the core operation of the Ô framework: take the SST density field ρ (
 - **ρ field**: per-grid-cell SST seasonal activity intensity (climatological std or anomaly amplitude).
 - **D_fold (condensation dimension)**: box-counting dimension of ρ > p95 grid cells. Random scatter ≈ 2, line-like folding → 1. Null uses N_NULL=8, seed=42.
 - **Seasonal memory**: per-grid-cell cross-year (same month, 12 months apart) SST corr minus random-baseline corr (152 pairs).
+- **Saddle-point (Morse) structure**: 2D Hessian eigenvalue sign classification of the SST anomaly field (and of the wind-stress-curl field); saddle fraction per month plus spatial co-location of saddle density × activity density. A **saddle ring** — a spatially uniform ring of saddle points around a central vortex — is the signature previously established for tropical cyclones (eyewall shear band); here we test whether the ENSO field (which has no central vortex) exhibits ring-like saddle structure, and where its saddle points actually sit.
 - **Topographic features**: ETOPO 0.25° mean elevation, std (roughness), np.gradient magnitude (gradient).
 - **Volcanic activity**: USGS earthquake energy density, volcanic eruption months, three independent lines (temporal coupling / high-vs-low volcanic months / spatial density).
 
@@ -126,6 +127,20 @@ The spatial distribution of positional memory shows no systematic variation acro
 
 **Direction correction:** not "volcanic eruption" but "submarine geometry"; level is "positional anchoring" (not yet "phase-transition triggering").
 
+### 3.7 Saddle-Point Topology of the ENSO Field: Density × Activity, Not a Ring
+
+The Ô framework's saddle-point (Morse) operator classifies each grid cell by the sign pattern of the Hessian eigenvalues (saddle = det H < 0). In tropical cyclones this operator detects a **saddle ring** — a uniform ring of saddle points in the eyewall shear band (64 cases, two hemispheres, four ocean basins; ring saddle fraction 55–63%, Rayleigh uniformity < 0.16, time-stable). Here we apply the same operator to the ENSO domain (which has no central vortex) to ask two questions: (i) does the ENSO field contain a saddle ring? (ii) where do ENSO saddle points actually concentrate?
+
+**Q1 — No saddle ring (field-level fraction is trivial and phase-insensitive).** Monthly saddle fraction of the OISST anomaly field is ≈ 0.564 with essentially zero variance across 528 months (std ≈ 0.0015), and shows **no sensitivity to ENSO phase**: Kruskal–Wallis p = 0.137, Mann–Whitney El Niño vs La Niña p = 0.534, Spearman ρ vs ONI = −0.028 (p = 0.52), null-control z = 1.58 (not significant). Unlike the cyclone eyewall (a single center → ring), a spatially averaged fraction cannot capture ENSO structure — field-level averaging is an operator misuse for a system without a center. The 3D extension (ERA5, 8 pressure levels, 2015 El Niño / 2016 transition / 2020 La Niña) confirms: phase-insensitive global fractions (geopotential 65.8/65.7/65.6%; vorticity 78.2% flat), and the apparent Nino3.4 ring-core +6 pp advantage is dissolved by month-by-month sign tests (23/36 positive, p = 0.132).
+
+**Q2 — Saddle points concentrate where activity density is high (co-location, not ring).** Although the field-level fraction is trivial, the *spatial distribution* of saddle points carries real signal: saddle density × activity density (ρ) is monotonically increasing across 10 bins (**binned Spearman = 1.000**) and at grid-cell level (ocean + tropics mask) Spearman = 0.42 (shuffle null z = +85). Saddle points cluster on high-noise frontal bands — the same geometric signature as the cyclone eyewall shear band, but organized as diffuse frontal lines rather than a closed ring around a center.
+
+**Q3 — Saddle structure is insensitive to ENSO phase (fair-control audit).** The apparent phase "skeleton" (El Niño vs La Niña mean map corr 0.372) is an artifact of sample-size-inflated averaging: a fair 30v30-month comparison gives corr 0.117 vs random-month null 0.127 (z = −2.0). This is cross-consistent with the condensation-line result above (memory position p = 0.28): **the saddle structure, like the memory structure, is anchored by non-ENSO factors.**
+
+**Q4 — Where the saddle points actually sit: the air–sea interface (wind-stress-curl test).** Bulk wind stress τ = ρ_a C_D |U| U from ERA5 10-m wind; the saddle density of curl τ × |curl τ| is grid-correlated r = 0.24–0.28 (shuffle null r ≈ 0.004, **z = +141 to +222**) — the first positional signal for ENSO saddle points: they concentrate on the wind-stress-curl coupling bands (ITCZ/cold-tongue frontal zones). But the phase skeleton of that position is even *less* similar than random (z = −13.8): the coupling bands do not move with ENSO phase. No ring, but a real interface-localized saddle structure.
+
+**Bottom line:** ENSO has no saddle ring (2D and 3D, field and ring tests all negative) — saddle-ring is a **vortex-specific structure** — but the saddle points that do exist co-localize with the same condensation bands measured in §3.1–§3.6. The saddle operator and the condensation operator are complementary views of the same marginal frontal structure: condensation measures *folding* (D_fold ≈ 1.33), saddle structure measures *critical-point type distribution* (saddle density × activity density, grid r = 0.42, z = +85; interface r = 0.24–0.28, z = +141 to +222).
+
 ---
 
 ## 4. Discussion
@@ -150,7 +165,7 @@ The Nino3.4 center is the epicenter of ENSO interannual variability, with its fr
 
 ## 5. Conclusion
 
-**The structural (predictable) content of ENSO does not live in the center index but in the condensation structure of marginal frontal systems.** This structure: condenses to near-1D (D=1.33, z=−46), retains weak positional memory (1.12×, p=0.004), concentrates at both Pacific ends, is anchored by fixed submarine topography (ETOPO z=+13.9), and is not driven by volcanic activity (EPR NULL).
+**The structural (predictable) content of ENSO does not live in the center index but in the condensation structure of marginal frontal systems.** This structure: condenses to near-1D (D=1.33, z=−46), retains weak positional memory (1.12×, p=0.004), concentrates at both Pacific ends, is anchored by fixed submarine topography (ETOPO z=+13.9), and is not driven by volcanic activity (EPR NULL). The saddle-point (Morse) operator adds a topological cross-check: ENSO has **no saddle ring** (field fraction ≈ 0.564 phase-insensitive; 3D extension confirms; fair-control z = −2.0) — confirming that saddle rings are vortex-specific — but its saddle points co-localize with the same marginal frontal condensation bands (density × activity grid r = 0.42, z = +85; air–sea interface |curl τ| r = 0.24–0.28, z = +141 to +222).
 
 One answer to "why is ENSO so hard to predict": **we keep measuring the center, but the structure lives at the margins.**
 
@@ -172,6 +187,10 @@ One answer to "why is ENSO so hard to predict": **we keep measuring the center, 
 | Memory tracks seasonal ρ amplitude (r=0.40) | ⚠️ Single source | Single correlation measure, needs independent verification |
 | EUC upwelling → front anchoring mechanism | 🔄 To be verified | Correlation supports; mechanism not directly measured |
 | La Niña condenses most strongly | ✅ Cross-validated | p=0.0011, phase analysis |
+| ENSO has no saddle ring (field fraction ≈0.564, phase-insensitive) | ✅ Cross-validated | 528-month KW p=0.137, MWU p=0.534, ρ=−0.028, null z=1.58; 3D extension (ERA5 8 levels) agrees |
+| Saddle points co-localize with activity density (grid r=0.42, binned Spearman=1.000) | ✅ Cross-validated | 10-bin monotonicity + grid-level null z=+85 |
+| Saddle structure insensitive to ENSO phase (fair-control z=−2.0) | ✅ Cross-validated | 30v30-month corr 0.117 vs random null 0.127 |
+| Saddle points concentrate at the air–sea interface (× |curl τ| r=0.24–0.28, z=+141 to +222) | ✅ Cross-validated | Bulk wind stress from ERA5 10-m wind; shuffle null r≈0.004 |
 
 ---
 
@@ -184,6 +203,8 @@ One answer to "why is ENSO so hard to predict": **we keep measuring the center, 
 5. USGS Earthquake Catalog: https://earthquake.usgs.gov/fdsnws/event/1/
 6. ENSO Simplified Prediction Note (predecessor): https://doi.org/10.5281/zenodo.21626908
 7. ENSO Watch Dashboard: https://mmdr10.github.io/enso-watch
+8. Eyewall Saddle Ring paper (saddle-ring operator origin, TC domain): https://doi.org/10.5281/zenodo.21876754
+9. Saddle-ring cross-domain report (ENSO 2D/3D + Greenland, Phase 30–35): `projects/atmosphere/vorticity_dfold/research_notes.md` §Phase 30–35
 
 **Data and code:** test files (scripts + data) in `projects/enso/tests/` (updated 2026-08-04). All open source, CC BY 4.0.
 

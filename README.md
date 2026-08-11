@@ -13,9 +13,9 @@ Contact: nnrpmrmm@gmail.com
 
 ## Abstract / 摘要
 
-**EN** — Instead of predicting the ENSO index, we measure the *spatial condensation structure* of the equatorial Pacific SST density field. Using 39 years of OISST 0.25° data (1982–2020), we find that ρ-field condensation is the norm (D=1.334±0.016, 60/60 months, z=−46.4); seasonal memory is "strong at both ends, weak in the center" (east end 270–290°E strongest); memory position is insensitive to ENSO phase (p=0.28); dynamic volcanic activity is excluded (EPR three-line NULL); and the strongest memory region is anchored by static submarine topography (ETOPO shuffle null z=+13.9, robust after shelf exclusion r=+0.040, p=5.6e-49). The predictable part of ENSO lives at the margins, not the center.
+**EN** — Instead of predicting the ENSO index, we measure the *spatial condensation structure* of the equatorial Pacific SST density field. Using 39 years of OISST 0.25° data (1982–2020), we find that ρ-field condensation is the norm (D=1.334±0.016, 60/60 months, z=−46.4); seasonal memory is "strong at both ends, weak in the center" (east end 270–290°E strongest); memory position is insensitive to ENSO phase (p=0.28); dynamic volcanic activity is excluded (EPR three-line NULL); and the strongest memory region is anchored by static submarine topography (ETOPO shuffle null z=+13.9, robust after shelf exclusion r=+0.040, p=5.6e-49). A complementary saddle-point (Morse) topology test finds **no saddle ring** in ENSO (field fraction ≈0.564, phase-insensitive; fair-control z=−2.0) yet saddle points co-localize with the condensation bands (grid r=0.42, z=+85; air–sea interface |curl τ| r=0.24–0.28, z=+141 to +222). The predictable part of ENSO lives at the margins, not the center.
 
-**ZH** — 唔預測 ENSO 指數，改為量度赤道太平洋 SST 密度場嘅**空間凝結結構**。用 OISST 0.25° 39 年數據發現：ρ 場凝結係常態（D=1.334±0.016, 60/60 月, z=−46.4）；季節記憶「兩端強、中心弱」（東端 270–290°E 最強）；記憶位置對 ENSO 相位唔敏感（p=0.28）；動態火山活動已排除（EPR 三線 NULL）；記憶最強區由靜態海底地形錨定（ETOPO shuffle null z=+13.9，排除陸架後 r=+0.040, p=5.6e-49）。ENSO 可預測嘅部分住喺邊緣，唔係中心。
+**ZH** — 唔預測 ENSO 指數，改為量度赤道太平洋 SST 密度場嘅**空間凝結結構**。用 OISST 0.25° 39 年數據發現：ρ 場凝結係常態（D=1.334±0.016, 60/60 月, z=−46.4）；季節記憶「兩端強、中心弱」（東端 270–290°E 最強）；記憶位置對 ENSO 相位唔敏感（p=0.28）；動態火山活動已排除（EPR 三線 NULL）；記憶最強區由靜態海底地形錨定（ETOPO shuffle null z=+13.9，排除陸架後 r=+0.040, p=5.6e-49）。補充鞍點（Morse）拓撲測試：**ENSO 冇鞍點環**（場級比例 ≈0.564 相位無敏感；公平對照 z=−2.0），但鞍點聚集喺凝結帶（格點 r=0.42, z=+85；氣海交界面 |curl τ| r=0.24–0.28, z=+141~+222）。ENSO 可預測嘅部分住喺邊緣，唔係中心。
 
 ## Key Numbers
 
@@ -28,6 +28,9 @@ Contact: nnrpmrmm@gmail.com
 | Volcano exclusion (EPR) | 3-line NULL (temporal r<0.15; p=0.78/0.87; spatial r=−0.29) |
 | Topographic anchoring (ETOPO) | memory~grad r=+0.038, **z=+13.9**; deep-water r=+0.040, p=5.6e-49 |
 | La Niña condensation | strongest, p=0.0011 |
+| ENSO saddle ring (2D 528 mo + 3D) | **absent** — field fraction ≈0.564, phase-insensitive KW p=0.137; fair-control z=−2.0 |
+| Saddle × activity density co-location | grid r=0.42, **z=+85**; binned Spearman=1.000 |
+| Saddle × |curl τ| at air–sea interface | r=0.24–0.28, **z=+141 to +222** |
 
 ## 數據出處 / Data Provenance
 
