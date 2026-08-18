@@ -1,6 +1,6 @@
 # ENSO Condensation Structure Line
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.PENDING.svg)](https://doi.org/10.5281/zenodo.PENDING)
+[![DOI](https://zenodo.org/badge/21994828.svg)](https://doi.org/10.5281/zenodo.21994828)
 
 ## Overview
 
