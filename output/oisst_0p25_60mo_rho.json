@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "data": "OISST v2 monthly mean 0.25deg, 2016-2020, 60 months, tropical Pacific 120-290E 30S-30N",
+    "purpose": "full-year x cross-year confirmation of rho-field dimension and no-time-continuity at 0.25deg"
+  },
+  "rho_dimension": {
+    "D_mean": 1.3344311027795406,
+    "D_std": 0.016415983258800386,
+    "z_mean": -46.44330951356412,
+    "z_min": -68.53830993243551,
+    "z_max": -38.85881366110988,
+    "n_negative": 60
+  },
+  "jaccard": {
+    "adjacent_month_mean": 0.1402749065185014,
+    "adjacent_month_std": 0.027706708074655542,
+    "same_month_cross_year_mean": 0.12551531079479272,
+    "same_month_cross_year_std": 0.023738746278895207,
+    "n_adj": 59,
+    "n_same": 48
+  }
+}
