@@ -1,0 +1,272 @@
+{
+  "2015": {
+    "phase": "El Ni\u00f1o (strong)",
+    "n": 330088,
+    "saddle_geo_frac": 0.657585249993941,
+    "saddle_vort_frac": 0.7822883594677783,
+    "null_geo_mean": 0.7752150941567096,
+    "null_geo_std": 0.0002607471546841527,
+    "null_vort_mean": 0.7760956169263954,
+    "null_vort_std": 0.00030083706892776885,
+    "z_geo": -451.1260892003045,
+    "z_vort": 20.585038151896743,
+    "nino34": {
+      "core": {
+        "n": 200,
+        "n_saddle": 138,
+        "saddle_frac": 0.69,
+        "rayleigh_r": 0.06854721736264854
+      },
+      "ring": {
+        "n": 672,
+        "n_saddle": 508,
+        "saddle_frac": 0.7559523809523809,
+        "rayleigh_r": 0.01782398750988378
+      },
+      "inner": {
+        "n": 2624,
+        "n_saddle": 2050,
+        "saddle_frac": 0.78125,
+        "rayleigh_r": 0.048219422394925604
+      },
+      "outer": {
+        "n": 10816,
+        "n_saddle": 8416,
+        "saddle_frac": 0.7781065088757396,
+        "rayleigh_r": 0.02917458608463669
+      }
+    },
+    "east_end": {
+      "core": {
+        "n": 200,
+        "n_saddle": 169,
+        "saddle_frac": 0.845,
+        "rayleigh_r": 0.0708600790804993
+      },
+      "ring": {
+        "n": 672,
+        "n_saddle": 553,
+        "saddle_frac": 0.8229166666666666,
+        "rayleigh_r": 0.012281949538695157
+      },
+      "inner": {
+        "n": 2624,
+        "n_saddle": 2145,
+        "saddle_frac": 0.817454268292683,
+        "rayleigh_r": 0.015234388516840218
+      },
+      "outer": {
+        "n": 10376,
+        "n_saddle": 8232,
+        "saddle_frac": 0.7933693138010794,
+        "rayleigh_r": 0.03243986850690452
+      }
+    },
+    "warm_pool": {
+      "core": {
+        "n": 200,
+        "n_saddle": 156,
+        "saddle_frac": 0.78,
+        "rayleigh_r": 0.058723725498610976
+      },
+      "ring": {
+        "n": 672,
+        "n_saddle": 547,
+        "saddle_frac": 0.8139880952380952,
+        "rayleigh_r": 0.01985207809943433
+      },
+      "inner": {
+        "n": 2624,
+        "n_saddle": 2167,
+        "saddle_frac": 0.8258384146341463,
+        "rayleigh_r": 0.011045655604833799
+      },
+      "outer": {
+        "n": 10816,
+        "n_saddle": 8924,
+        "saddle_frac": 0.8250739644970414,
+        "rayleigh_r": 0.004532938923473734
+      }
+    }
+  },
+  "2016": {
+    "phase": "El Ni\u00f1o\u2192Neutral",
+    "n": 330088,
+    "saddle_geo_frac": 0.6571277962240373,
+    "saddle_vort_frac": 0.7824822471583336,
+    "null_geo_mean": 0.77524099634037,
+    "null_geo_std": 0.0004197003111088107,
+    "null_vort_mean": 0.7768158794018565,
+    "null_vort_std": 0.0003255832153780319,
+    "z_geo": -281.4227128025906,
+    "z_vort": 17.40374653496169,
+    "nino34": {
+      "core": {
+        "n": 200,
+        "n_saddle": 138,
+        "saddle_frac": 0.69,
+        "rayleigh_r": 0.07702787992921628
+      },
+      "ring": {
+        "n": 672,
+        "n_saddle": 504,
+        "saddle_frac": 0.75,
+        "rayleigh_r": 0.024643200142149355
+      },
+      "inner": {
+        "n": 2624,
+        "n_saddle": 2050,
+        "saddle_frac": 0.78125,
+        "rayleigh_r": 0.02579615355243865
+      },
+      "outer": {
+        "n": 10816,
+        "n_saddle": 8609,
+        "saddle_frac": 0.7959504437869822,
+        "rayleigh_r": 0.02055592520498088
+      }
+    },
+    "east_end": {
+      "core": {
+        "n": 200,
+        "n_saddle": 177,
+        "saddle_frac": 0.885,
+        "rayleigh_r": 0.08192410970502961
+      },
+      "ring": {
+        "n": 672,
+        "n_saddle": 564,
+        "saddle_frac": 0.8392857142857143,
+        "rayleigh_r": 0.008182017079819581
+      },
+      "inner": {
+        "n": 2624,
+        "n_saddle": 2160,
+        "saddle_frac": 0.823170731707317,
+        "rayleigh_r": 0.019198352819850033
+      },
+      "outer": {
+        "n": 10376,
+        "n_saddle": 7993,
+        "saddle_frac": 0.7703353893600616,
+        "rayleigh_r": 0.05850480612539838
+      }
+    },
+    "warm_pool": {
+      "core": {
+        "n": 200,
+        "n_saddle": 133,
+        "saddle_frac": 0.665,
+        "rayleigh_r": 0.01876003176449586
+      },
+      "ring": {
+        "n": 672,
+        "n_saddle": 513,
+        "saddle_frac": 0.7633928571428571,
+        "rayleigh_r": 0.030002231088673333
+      },
+      "inner": {
+        "n": 2624,
+        "n_saddle": 2055,
+        "saddle_frac": 0.7831554878048781,
+        "rayleigh_r": 0.011578006847552082
+      },
+      "outer": {
+        "n": 10816,
+        "n_saddle": 8674,
+        "saddle_frac": 0.8019600591715976,
+        "rayleigh_r": 0.009606969876250124
+      }
+    }
+  },
+  "2020": {
+    "phase": "La Ni\u00f1a",
+    "n": 330088,
+    "saddle_geo_frac": 0.656400717384455,
+    "saddle_vort_frac": 0.7824943651389933,
+    "null_geo_mean": 0.7751570793243013,
+    "null_geo_std": 0.0005277485573828208,
+    "null_vort_mean": 0.7771641198710647,
+    "null_vort_std": 0.0003302142433958344,
+    "z_geo": -225.0245126747021,
+    "z_vort": 16.14177878311296,
+    "nino34": {
+      "core": {
+        "n": 200,
+        "n_saddle": 114,
+        "saddle_frac": 0.57,
+        "rayleigh_r": 0.022891672405407282
+      },
+      "ring": {
+        "n": 672,
+        "n_saddle": 425,
+        "saddle_frac": 0.6324404761904762,
+        "rayleigh_r": 0.026833160838078733
+      },
+      "inner": {
+        "n": 2624,
+        "n_saddle": 1900,
+        "saddle_frac": 0.7240853658536586,
+        "rayleigh_r": 0.016576633612952533
+      },
+      "outer": {
+        "n": 10816,
+        "n_saddle": 8351,
+        "saddle_frac": 0.7720968934911243,
+        "rayleigh_r": 0.026623432415182557
+      }
+    },
+    "east_end": {
+      "core": {
+        "n": 200,
+        "n_saddle": 159,
+        "saddle_frac": 0.795,
+        "rayleigh_r": 0.0880993185298975
+      },
+      "ring": {
+        "n": 672,
+        "n_saddle": 547,
+        "saddle_frac": 0.8139880952380952,
+        "rayleigh_r": 0.03906464185368186
+      },
+      "inner": {
+        "n": 2624,
+        "n_saddle": 2110,
+        "saddle_frac": 0.8041158536585366,
+        "rayleigh_r": 0.04026104655411947
+      },
+      "outer": {
+        "n": 10376,
+        "n_saddle": 8209,
+        "saddle_frac": 0.7911526599845798,
+        "rayleigh_r": 0.03633884014842945
+      }
+    },
+    "warm_pool": {
+      "core": {
+        "n": 200,
+        "n_saddle": 151,
+        "saddle_frac": 0.755,
+        "rayleigh_r": 0.08079643206882173
+      },
+      "ring": {
+        "n": 672,
+        "n_saddle": 518,
+        "saddle_frac": 0.7708333333333334,
+        "rayleigh_r": 0.021559350395349834
+      },
+      "inner": {
+        "n": 2624,
+        "n_saddle": 2039,
+        "saddle_frac": 0.7770579268292683,
+        "rayleigh_r": 0.03242601444091306
+      },
+      "outer": {
+        "n": 10816,
+        "n_saddle": 8716,
+        "saddle_frac": 0.8058431952662722,
+        "rayleigh_r": 0.015931370824069254
+      }
+    }
+  }
+}
