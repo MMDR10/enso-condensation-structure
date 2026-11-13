@@ -1,0 +1,28 @@
+{
+  "records": [
+    {
+      "month": "2026-07",
+      "saddle_frac": 0.57932,
+      "spearman_density_curl": 0.2538,
+      "east_end_density": 0.4707,
+      "nino34_density": 0.49727,
+      "field": "curl_tau"
+    },
+    {
+      "month": "2026-08",
+      "saddle_frac": 0.58489,
+      "spearman_density_curl": 0.3414,
+      "east_end_density": 0.46306,
+      "nino34_density": 0.45281,
+      "field": "curl_tau"
+    },
+    {
+      "month": "2026-09",
+      "saddle_frac": 0.58488,
+      "spearman_density_curl": 0.2699,
+      "east_end_density": 0.50823,
+      "nino34_density": 0.5107,
+      "field": "curl_tau"
+    }
+  ]
+}

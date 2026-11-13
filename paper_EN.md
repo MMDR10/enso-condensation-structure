@@ -1,5 +1,14 @@
 # Condensation Structure of ENSO: Seasonal Memory, Topographic Anchoring, and Phase-Transition Geometry
 
+> ## ⚠️ ERRATUM (2026-11-13) — Retraction of Claim 5 (Topographic Anchoring)
+>
+> The **topographic anchoring** claim (§3.6; "memory intensity × topographic gradient, shuffle null z=+13.9") is **RETRACTED**. Post-publication audit (2026-08-16 → 08-18) established:
+> 1. the z=+13.9 significance does **not** survive controls for spatial autocorrelation (null maps with identical spatial structure yield comparable z);
+> 2. the volcanic-dynamic variant is null (three-line test: D_fold p≈0.69, lag ρ<0.03, ρ diff<0.5%) — volcanic activity is an ENSO confounder, not a driver;
+> 3. map-level inspection confirms no causal link between the strongest-memory region and the EPR/Galapagos ridge.
+>
+> Claims **3** (edge dominance of seasonal memory) and **4** (memory position insensitive to ENSO phase, p=0.28) **stand as descriptions**; the **anchoring mechanism is an open question**. Do not cite z=+13.9. The title is kept for record continuity. See **Update v1.2** below for the first out-of-sample check.
+
 **Author:** tygtDc, Deep Research
 **Date:** 2026-08-04
 **Version:** v1.0 (draft)
@@ -10,7 +19,7 @@
 
 ## Abstract
 
-ENSO is traditionally understood as a large-scale ocean–atmosphere coupled oscillation, with mainstream methods (GCMs) achieving only ~50–60% accuracy at 6-month leads. This paper proposes a different measurement route: **instead of predicting the ENSO index, measure the spatial condensation structure of the equatorial Pacific SST density field** — the geometric folding of seasonal frontal systems, their positional memory, and the topographic anchoring of that memory.
+ENSO is traditionally understood as a large-scale ocean–atmosphere coupled oscillation, with mainstream methods (GCMs) achieving only ~50–60% accuracy at 6-month leads. This paper proposes a different measurement route: **instead of predicting the ENSO index, measure the spatial condensation structure of the equatorial Pacific SST density field** — the geometric folding of seasonal frontal systems, their positional memory, and the anchoring question of that memory (see Erratum: topographic anchoring retracted).
 
 Using 39 years of OISST 0.25° data (1982–2020), we find:
 
@@ -18,10 +27,10 @@ Using 39 years of OISST 0.25° data (1982–2020), we find:
 2. **Temporal memory exists but is weak (adjacent-month Jaccard 1.12× cross-year, p=0.004; 86% of positions reshuffle)**: clusters have almost no temporal identity but retain weak positional memory — "time does not exist" is refined to "noise clusters have almost no temporal identity, but weak positional memory remains."
 3. **Seasonal memory is dominated by the Pacific margins ("strong at both ends, weak in the center")**: east-end 270–290°E (American coast) net memory 0.096–0.117, 80.7% positive grid cells, 23.3% of top-5% share; Nino3.4 center weakest (6.4%). Seasonal memory is not a center phenomenon but a margin frontal-zone phenomenon.
 4. **Memory position is insensitive to ENSO phase (p=0.28)**: the position is anchored by non-ENSO factors.
-5. **Topographic anchoring (ETOPO decisive test)**: the strongest memory region sits on the EPR/Galapagos shallow ridge (−2636 m vs −4629 m abyssal plain; roughness/gradient 2.5×); memory intensity × topographic gradient positively correlated (r=+0.038, shuffle null **z=+13.9**), robust after excluding shelf effects (r=+0.040, p=5.6e-49). **Dynamic volcanic activity is excluded (EPR three-line NULL: temporal r<0.15, high/low volcanic months p=0.78/0.87, spatial r=−0.29)** — supporting "static submarine geometry" rather than "volcanic eruption."
+5. ~~**Topographic anchoring (ETOPO decisive test)**: the strongest memory region sits on the EPR/Galapagos shallow ridge (−2636 m vs −4629 m abyssal plain; roughness/gradient 2.5×); memory intensity × topographic gradient positively correlated (r=+0.038, shuffle null **z=+13.9**), robust after excluding shelf effects (r=+0.040, p=5.6e-49).~~ **[RETRACTED 2026-11-13 — see Erratum above. The volcanic-dynamic exclusion (EPR three-line NULL: temporal r<0.15, high/low volcanic months p=0.78/0.87, spatial r=−0.29) stands: volcanic activity is an ENSO confounder. The anchoring mechanism remains open.]**
 6. **La Niña condenses most strongly (p=0.0011)**: in the cold phase the cold tongue deepens → the front steepens → stronger condensation, complementary to the superficial asymmetry of the three-number formula ("La Niña signal is weak").
 
-Conclusion: the predictable part of ENSO is not the center index but the **condensation structure of marginal frontal systems** — recurring at the same location each year, anchored by fixed submarine topography. A complementary saddle-point (Morse) topology test (2D OISST 528 months + 3D ERA5 + wind-stress-curl interface) finds **no saddle ring** in ENSO (field fraction ≈ 0.564, phase-insensitive KW p = 0.137; fair-control z = −2.0) — saddle rings are vortex-specific — yet saddle points **co-localize with the condensation bands** (saddle density × activity density grid r = 0.42, z = +85; × |curl τ| at the air–sea interface r = 0.24–0.28, z = +141 to +222). This structure provides a measurement window orthogonal to mainstream ENSO prediction.
+Conclusion: the predictable part of ENSO is not the center index but the **condensation structure of marginal frontal systems** — recurring at the same location each year, with the anchoring mechanism an open question (topographic anchoring retracted; see Erratum). A complementary saddle-point (Morse) topology test (2D OISST 528 months + 3D ERA5 + wind-stress-curl interface) finds **no saddle ring** in ENSO (field fraction ≈ 0.564, phase-insensitive KW p = 0.137; fair-control z = −2.0) — saddle rings are vortex-specific — yet saddle points **co-localize with the condensation bands** (saddle density × activity density grid r = 0.42, z = +85; × |curl τ| at the air–sea interface r = 0.24–0.28, z = +141 to +222). This structure provides a measurement window orthogonal to mainstream ENSO prediction.
 
 ---
 
@@ -100,7 +109,7 @@ We apply the core operation of the Ô framework: take the SST density field ρ (
 
 ### 3.4 Memory Position Insensitive to ENSO
 
-The spatial distribution of positional memory shows no systematic variation across ENSO phases (p=0.28) — **the position is anchored by non-ENSO factors**. This is the first piece of evidence pointing to "fixed topography."
+The spatial distribution of positional memory shows no systematic variation across ENSO phases (p=0.28) — **the position is anchored by non-ENSO factors**. ~~This is the first piece of evidence pointing to "fixed topography."~~ [Retracted inference — see Erratum; the anchoring mechanism is open.]
 
 ### 3.5 Volcanic Activity Excluded (EPR Three-Line NULL)
 
@@ -112,7 +121,7 @@ The spatial distribution of positional memory shows no systematic variation acro
 
 **Conclusion: dynamic volcanic activity (USGS earthquakes/energy) is not the source of east-end condensation.**
 
-### 3.6 Topographic Anchoring: Decisive Test (ETOPO)
+### 3.6 Topographic Anchoring: Decisive Test (ETOPO) — ⚠️ RETRACTED (see Erratum)
 
 | Region | net memory | elevation | roughness | gradient |
 |--------|-----------|-----------|-----------|----------|
@@ -120,7 +129,7 @@ The spatial distribution of positional memory shows no systematic variation acro
 | Nino3.4 190–240°E (weakest memory) | 0.033 | −4629 m | 115 | 467 |
 
 - The strongest-memory seafloor is the **EPR/Galapagos shallow ridge** (~2000 m shallower, roughness/gradient 2.5× the abyssal plain).
-- net memory ~ grad: r=+0.038 (p=7.5e-46, n=143k); **shuffle null z=+13.9**.
+- net memory ~ grad: r=+0.038 (p=7.5e-46, n=143k); ~~**shuffle null z=+13.9**~~ **[RETRACTED — does not survive spatial-autocorrelation controls]**.
 - Top-10% memory cells: gradient 1141 vs bottom-10% 941 (Δ +200).
 - **Robust after excluding shelf (>1000 m deep water)**: r=+0.040 (p=5.6e-49), top-decile Δ +211.
 - **Mechanism (to be verified)**: EUC hits the shallow ridge → upwelling → cold wake → front anchored at the same topographic feature each year → seasonal memory recurs.
@@ -211,3 +220,23 @@ One answer to "why is ENSO so hard to predict": **we keep measuring the center, 
 ---
 
 *This paper was independently written by AI research assistant tygtDc (Deep Research), based on ENSO condensation-structure measurements using the Ô geometric framework. All data, code, and methodology are fully open source.*
+
+
+---
+
+## Update v1.2 (2026-11-13): Erratum + First Out-of-Sample Seasonal × ENSO-Phase Check
+
+**Erratum:** Claim 5 (topographic anchoring) is retracted — see the banner at the top. Claims 3 and 4 stand as descriptions; the anchoring mechanism is open.
+
+**New data — a natural experiment.** The monthly `enso-watch` automatic monitoring (since 2026-08-11) accumulated 4 months (2026-07 → 10) spanning a strengthening **super El Niño** (CPC Nino3.4 monthly anomaly +1.78 → +2.68) — the opposite phase extreme from the paper's La Niña claim, and therefore a hard test for any ENSO-driven-position hypothesis.
+
+| Check | Result |
+|---|---|
+| **F1** structure position vs ENSO (**Local Trend ⚠️, n=4**) | Niño3.4-center saddle density **falls monotonically** as El Niño strengthens (0.4707 → 0.4414; **corr(ONI, ·) = −0.95**), while east-end density stays flat (corr +0.05). A super El Niño does **not** pull the structure to the center — prospective consistency with Claim 4 (memory position insensitive to ENSO phase). |
+| **F2** saddle-fraction phase-stability | OISST span **0.46pp**, wind-stress-curl span 0.56pp through the ramp — consistent with phase-insensitivity (KW p = 0.137). |
+| **F3** edge dominance (open) | east > center 4/4 months in the SST field, but only 1/3 in the wind-stress-curl interface (this monthly saddle-density proxy differs from Claim 3's seasonal-memory metric). |
+| **F4** "La Niña condenses most strongly" (undecidable) | SST proxy −17% (direction-consistent) vs curl proxy +20% (opposite) under the El Niño ramp; a proper test requires a La Niña period and the D metric. |
+
+**Caveats:** monthly saddle-density proxies, not the paper's net-memory/D metrics; n=4 → Local Trend ⚠️ only (no formal inference).
+
+**Files added:** `seasonal_x_enso_check.py`, `data/saddle_history.json`, `data/curl_history.json` (live series continues in `MMDR10/enso-watch`). Note: the v1.1-typed PDFs do not carry this erratum — the `.md` files are authoritative.

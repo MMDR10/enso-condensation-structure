@@ -1,0 +1,40 @@
+{
+  "records": [
+    {
+      "month": "2026-07",
+      "saddle_frac": 0.56875,
+      "spearman_density_rho": 0.167,
+      "spearman_density_grad": 0.1833,
+      "east_end_density": 0.53063,
+      "nino34_density": 0.47071,
+      "field": "sst_anomaly"
+    },
+    {
+      "month": "2026-08",
+      "saddle_frac": 0.56419,
+      "spearman_density_rho": 0.1159,
+      "spearman_density_grad": 0.1243,
+      "east_end_density": 0.52127,
+      "nino34_density": 0.45106,
+      "field": "sst_anomaly"
+    },
+    {
+      "month": "2026-09",
+      "saddle_frac": 0.56544,
+      "spearman_density_rho": 0.0987,
+      "spearman_density_grad": 0.0873,
+      "east_end_density": 0.54152,
+      "nino34_density": 0.44817,
+      "field": "sst_anomaly"
+    },
+    {
+      "month": "2026-10",
+      "saddle_frac": 0.56419,
+      "spearman_density_rho": 0.1348,
+      "spearman_density_grad": 0.1105,
+      "east_end_density": 0.52192,
+      "nino34_density": 0.44136,
+      "field": "sst_anomaly"
+    }
+  ]
+}
